@@ -1,0 +1,141 @@
+---
+title: Up and Running with $\LaTeX$.  
+---
+
+$\LaTeX$ is a document preparation markup language created by Donald Knuth and Leslie Lamport. $\LaTeX$ is one of the most widely used pieces of software among scientists and engineers. You will do your reflection writing, thesis drafting, and thesis writing in $\LaTeX$. The purpose of this exercise is to get you up and running.  
+
+Y'all are advanced CS students and know how to Read The Docs. So, this exercise is partly about self-teaching some of core $\LaTeX$ constructs and workflows. It is normal to be confused about some things and normal to spend some time on StackExchange. 
+
+This assignment is not designed to be Very Hard, but it is likely to require some patience and a few hours. 
+
+**Example Solution**: I have created an [example solution](/assets/img/solutions/latex-practice-sol.pdf) for this assignment. You are done when you have made a document that looks like this and uses the tools that I've incidated. You don't have to replicate exactly my text or algorithms, but you must, for example, use commands like `\cref` and `\cite` rather than typing things out by hand. 
+
+## Make Your Document
+
+You are going to create a document from scratch in which you discover and practice the major daily components of $\LaTeX$. 
+
+In your Overleaf thesis project, start by creating a brand new, blank file called `latex-practice.tex`. 
+
+Type the following to state that you want to create a new document of class `scrartcl`.   
+
+```latex
+\documentclass{scrartcl}
+\begin{document}
+
+\end{document}
+```
+
+## Title, Author, Date
+
+[![An example of the title, author, and date fields in the default `scrartcl` class.](../assets/img/tex-examples/title.jpg)]{.aside}
+
+Give your document a title, author, and date. Note that it is not sufficient to just type these out near the top of the file -- you will need to find the correct commands to formally create these fields. The result will look something like the screencap on the right.  
+
+## Text Formatting
+
+*Create a section* called "Text Formatting." There is a special command for making sections. 
+
+Write a short paragraph -- nonsense is fine. Then, create: 
+
+- *Some italicized words* and **some bolded words**. 
+- A bulleted list (like the one you're reading right now). 
+- A numbered list: 
+    1. Like
+    2. This 
+    3. One. 
+- Advanced: a numbered list within a bulleted list, or vice versa. 
+- A section header. 
+
+## Math
+
+*Create another section* called "Math." 
+
+[To do this part, you will need to use your first *packages*. You will need to use the `amsmath` and `amssymb` packages.]{.aside}
+
+Write a big display equation or inequality from the most recent CS/math/phyics course you've seen inside an *align* environment. For example, here's a definition of the empirical risk in machine learning problems: 
+
+$$ 
+\begin{aligned}
+    R(\mathbf{X}, \mathbf{y}) = \frac{1}{n} \sum_{i = 1}^n \ell(f(\mathbf{x}_i), y_i)
+\end{aligned}
+$$
+
+Then, write a short paragraph in which you describe what the symbols appearing in the equation mean. Your paragraph should include the symbols! For example, in the equation above, $R$ is the name of the empirical risk function. $\mathbf{X}\in \mathbb{R}^{n\times n}$ is the matrix of predictor data and $\mathbf{y}$ is a vector of targets. The function $\ell$ is the loss function and $f$ is the predictor function. 
+
+## Citations and Cross-References
+
+Create another section called "Citations and Cross-References."
+
+### Citations
+
+Within this section, create a *subsection* called "Citations".
+
+Grab a `.bib` file containing a few citations. For now, it's ok to create this file in any way you want. You can even just reference `sampleThesis.bib` in the Overleaf, which does not require you to make any new files.
+
+- Declare that you are going to use the `biblatex` package. 
+- Then, add your `.bib` file as a bibliography resource. 
+- Arrange to print your bibliography at the end of the document. 
+
+Now we are ready to start citing! Demonstrate the use of `\cite`, `\textcite`, and `\fullcite` to generate citations. Check that the citations appear in your text as well as in the "References" section. 
+
+### Cross-References
+
+Create another subsection called "Cross-References".
+
+First, label the equation that you wrote in the previous section. For example, you could label it `eq:first-eq`. Then, use the command `\cref{eq:first-eq}` to generate a cross-reference to this equation in the text of your document. Now you can talk about the equation and your readers will know exactly which one you are talking about!! 
+
+Now let's make a figure. Your figure must have a figure number (e.g. "Figure 1") and a caption. [Creating a figure in $\LaTeX$ is a little complex. You will need to create a figure environment, then place a graphic inside that environment, and then add the caption. Your graphic is a file (like `.png` or `.jpeg` that can live in a separate folder on Overleaf.)]{.aside} 
+
+Next, give the figure a *label* which will allow you to refer back to it. For example, you could label it `fig:first-fig`. Finally, in the text in this section, use the command `\cref{fig:first-fig}` to generate a cross-reference to this figure, in which ou say something about it. 
+
+[To do this part, you will need to use more packages: `hyperref`, `cleverref`, and `graphicx`. Some people (like me) think that the default `hyperref` settings are a little ugly. You can hide links by choosing the optional `hidelinks=true` argument when declaring the use of `hyperref`. `hyperref` *must* be declared before `cleverref`.]{.aside}
+
+## Algorithms
+
+Since we are computer scientists, let's typeset an algorithm! Declare that you are going to use the `algorithm2e` package (I think it looks niced with the `ruled` option). Then, pick your favorite algorithm from 201, 301, or 302 (or any other class) and typeset it. Please show the use of at least one loop or branching structure. Make sure to a description of the input, result, and a brief caption. Also demonstrate making a comment. Give your algorithm a label and refer to it in the main text. 
+
+Note: to correctly use `cref` with an algorithm, you will need to invoke `\uspackage{algorithm2e}` *before* `\uspackage{algorithm2e}`.  
+
+
+
+
+
+## Table Of Contents and Abstract
+
+Wow, we're coming up on a lot of sections here! Let's make it a little easier for your reader to understand what's going on. Add an automatic table of contents and an abstract at the beginning of your document. Personally, I liked adding a `\newpage` after my table of contents. 
+
+## Macros
+
+$\LaTeX$ allows you to define your own custom macros, which can be useful for typesetting complicated jargon or frequently-used mathematical symbols. You can think of these macros as something like functions in a programming language. 
+
+Create a new command called `\alg` which, when you type `\alg` in your document, renders with the name of an algorithm you like. 
+
+Macros without arguments can be thought of as global constants. If there is a number that depends on an experiment you've done, wrapping that number in a macro will let you just change it once (in the macro definition) when you inevitably get a slightly different result from repeating the experiment. 
+
+
+## Appendix
+
+Let's make a nice appendix where we can put details that might be a bit too fiddly for the main text. Create a new section that is part of the appendix. The section should be assigned a letter rather than a number to indicate its status. 
+
+# Submit Your Assignment
+
+On Canvas, submit a sharing link to your Overleaf project containing your solution.     
+
+
+
+
+
+
+
+
+
+
+
+
+# Tips
+
+- The [Overleaf website](https://www.overleaf.com/learn/latex/Tutorials) has a large number of tips and workflows. 
+- I encourage you to help each other out by sharing ideas, pointers to documentation and online resources, etc. Please don't share any code. 
+- The thesis template that is already on Overleaf illustrates most of these techniques. Judicious cannibalism of this document is one good way to complete this assignment. 
+- Organize your document in such a way that it is easy for you to see which pieces of code have which effects -- you'll want to use this document as a private reference when writing your thesis. 
+

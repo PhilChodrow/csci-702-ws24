@@ -1,0 +1,17 @@
+## Guidance
+
+- [Giving a Talk](https://drive.google.com/file/d/13efH6iA6toPtJ91KBt_QCeAyQBcSN7SA/view) workshop slides by [Dan Larremore](https://larremorelab.github.io/). 
+- [$\LaTeX$](https://drive.google.com/file/d/1X7pp1FXT53Zk-VDWAXggUM7uWjd7VMou/view) workshop slides by [Dan Larremore](https://larremorelab.github.io/). 
+
+## Writing in $\LaTeX$
+
+$\LaTeX$ ("LAH-tek") is the technical typesetting software used broadly across the quantitative sciences. The vast majority of papers in computer science, mathematics, physics, and engineering are composed with $\LaTeX$. If you've ever taken a math class here at Middlebury, I guarantee that you have interacted with many documents produced using $\LaTeX$. 
+
+You will create most of your written deliverables for this course using $\LaTeX$. I recommend two ways to do this. [You can pick a different way, but I recommend doing this only if you are exceptionally comfortable with your software and have already formed distinctive preferences about $\LaTeX$.]{.aside} 
+
+- [Overleaf](https://www.overleaf.com/) is an online service that gives free access to collaborative $\LaTeX$ document preparation. You can create a free account, supply a template, and immediately begin editing. 
+- You can also edit $\LaTeX$ on your local machine. For example, [VSCode](https://code.visualstudio.com/) offers an excellent extension for $\LaTeX$ editing called [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop). In order to compile documents locally, you will need to download [the $\LaTeX$ typesetting software itself](https://www.latex-project.org/get/) onto your local machine. 
+    - Many other text editors have similar extensions or functionality for working with $\LaTeX$ documents. I mention VSCode specifically because (a) you may have some exposure to it already and (b) it is my personal choice. 
+
+If you like easy solutions, choose Overleaf. If you love your editor or being fully in control of your own software, choose a local installation. 
+

@@ -1,0 +1,212 @@
+---
+tbl-cap-location: margin
+title: Syllabus
+callout-icon: false
+bibliography: refs.bib
+citation-location: margin
+reference-location: margin
+---
+
+Welcome to CSCI 0702: Senior Thesis. In this course, you will complete a major scholarly or implementation project under the guidance of your thesis advisor. 
+
+## Official Course Description
+
+*The senior thesis is required for all CSCI majors who wish to be considered for high and highest departmental honors, and is recommended for students interested in pursuing graduate study in computer science. Students will spend the semester researching and writing, and developing and experimenting as appropriate for their topic. All students will be expected to report on their work in the form of a written thesis, a poster, and an oral presentation at the end of the semester. In addition, throughout the semester, students will meet as a group to discuss research and writing, and will be expected to attend talks in the Computer Science lecture series. Before approval to join the class is granted, students are expected to have chosen a thesis adviser from the CSCI faculty, and determined a thesis topic with the guidance and approval of that adviser.*
+
+## Core Learning Objectives
+
+1. You will describe the scholarly or engineering importance of a prospective problem in computer sciencce by situating it in the context of existing work.
+2. You will execute on a long-term, original project in collaboration with your thesis advisor. 
+3. You will develop practices of technical communication with your advisor, your peers, and with the scholarly community. 
+
+# Logistics and Key Highlights
+
+<table>
+    <tr>
+        <td class="syllabus-description-table-header"> 
+            <b>Scheduled Class Periods</b> 
+        </td> 
+        <td class="syllabus-description-table-entry"> 
+            75 Shannon Street, Room 206
+            <br>
+            (Winter): Mondays, Tuesdays, Wednesdays, and Thursdays 10am-12pm
+            <br>
+            (Spring): Mondays, 2:05pm-4pm. 
+        </td>
+    </tr>
+    <tr>
+        <td class="syllabus-description-table-header"> 
+            <b>Instructor</b> 
+        </td> 
+        <td class="syllabus-description-table-entry"> 
+            [Phil Chodrow](https://www.philchodrow.prof/) <br> 
+            <table style="margin-bottom:0;"> 
+                <tr> 
+                    <td>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16"><path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/></svg>
+                    </td>
+                    <td>
+                        75 Shannon Street, Room 218 
+                    </td>
+                </tr>
+                <tr> 
+                    <td>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16"><path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/></svg>
+                    </td>
+                    <td>
+                        [pchodrow@middlebury.edu](mailto:pchodrow@middlebury.edu), though please use Slack instead. 
+                    </td>
+                </tr>
+                <tr> 
+                    <td>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock-fill" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/></svg>
+                    </td>
+                    <td>
+                        Office Hours: By appointment.
+                    </td>
+                </tr>   
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td class="syllabus-description-table-header">
+            <b> Key Highlights </b>
+        </td>
+        <td class="syllabus-description-table-entry">
+            Our [detailed course schedule](schedule.qmd) contains information on required readings, warmup problems, and other assignments.  
+            <br> 
+            I encourage you to call me "Prof. Phil" or "Phil." "Professor Chodrow" is also fine if that's what's most comfortable for you. 
+            <br> <br> 
+            Generative AI (e.g. ChatGPT) is ok for generating ideas and solving issues with $\LaTeX$ formatting. Your writing should be yours alone, and you are responsible for ensuring that your work is supported by reliable scholarly sources. 
+        </td>
+    </tr> 
+</table>
+
+# Assessment and Grades
+
+## Winter Term
+
+In Winter term, 0702 is graded fully on **participation**, **effort** and **organization**. To earn a given grade, you must satisfy **all** of the bulleted items.  [Grades are assigned in consultation with your thesis advisor. Grades may be adjusted in response to things like flakiness when meeting with thesis advisors or persistent failure to response to advisor guidance.]{.aside}
+
+### A
+
+- You missed at most one class meeting. 
+- You spent at least **35** motivated, productive hours per week on your thesis. 
+- You turned in all deliverables on time, including written reports, reflections, and presentations. 
+
+### A- 
+
+- You missed at most one class meeting. 
+- You spent at least **32** motivated, productive hours per week on your thesis. 
+- You turned in written reports and presentations on time, and were late on at most one reflection. 
+
+### B+ 
+
+- You missed at most three class meetings. 
+- You spent at least **28** motivated, productive hours per week on your thesis. 
+- You were late on two reflections or one major deliverable (written report or presentation). 
+
+### B 
+
+- You missed at most three class meetings. 
+- You spent at least **25** motivated, productive hours per week on your thesis. 
+- You were late on three reflections or two major deliverables (written report or presentation). 
+
+### Notes
+
+#### Missed Class
+
+- Absences due to illness, conference attendance, or scheduled athletics can be made up -- DM me. 
+- Lateness of 10 minutes or more counts as an absence. 
+
+#### Weekly Effort
+
+- You will self-report your hours each week. 
+- Time spent in this class and meeting with your thesis advisor counts toward your total hours each week.  
+- I will check with your advisor if your progress on your research is roughly consistent with your self-reported hours. 
+
+## Spring Term
+
+TBD
+
+
+
+
+
+
+# Inclusion, Access, and Participation
+
+I commit to an inclusive, accessible, participatory, and safe classroom for CSCI 0702. 
+
+## Disabilities and Clearing Barriers
+
+[For legal reasons, I am prohibited from offering accommodations to students who do not present letters of accommodation from the DRC. So, get a letter if you need it!]{.aside}
+
+If any aspect of this course raises barriers to your full and equitable participation, it is my job to clear those barriers. 
+A common way in which barriers arise is from unintentional failure to design for *all* students, including students with disabilities. 
+I've done my best, but still may have fallen short! 
+If you have a documented disability, please send me your letter of accommodation from the [Disability Resource Center](https://www.middlebury.edu/disability-resource-center) as soon as possible. **You do not need to describe your disability or justify your accommodations**. 
+I will incorporate your accommodations and work to clear learning barriers to the best of my ability. 
+
+If you believe that you may have a disability, please contact the [Disability Resource Center](https://www.middlebury.edu/disability-resource-center) as soon as possible. The DRC works with students confidentially and never discloses disability-related information to faculty without your permission. 
+
+## Classroom Environment
+
+Inclusion, access, and participation are **collective** projects. I expect all students to contribute to a healthy course environment. 
+
+We embrace diversity of age, background, beliefs, race, ethnicity, gender, gender identity, gender expression, national origin, religious affiliation, sexual orientation, and other apparent and non-apparent axes of identity. **Discrimination is not tolerated in CSCI 0200**. Discriminatory speech or acts may lead to engagement with the Community Standards Office. 
+
+You deserve to be addressed in the manner that reflects who you are. I welcome to tell me your pronouns and/or chosen name at any time, either in person or via email. **I expect all students to address each other according to their expressed gender markers**, and commit to doing the same. 
+
+You deserve to fully and equitably participate in our learning environment. I commit to ensuring that the materials and assessments in this course are accessible to all students, and I welcome feedback on where I can do better. Middlebury's [Disability Resource Center](https://www.middlebury.edu/office/disability-resource-center) can help you remove barriers to learning in this and other courses. 
+
+You deserve a learning environment free from gender-based discrimination, sexual harassment, sexual assault, domestic violence, dating violence, and stalking. If you experience these behaviors or otherwise know of a Title IX violation, you have many options for support and/or reporting. Middlebury's [Civil Rights and Title IX Office](https://www.middlebury.edu/office/title-IX) (CRTIX) can help you navigate your options.  Please be aware that I am a Responsible Employee, which means that **I am required by the College to report incidents of sexual harassment or sexual violence to CRTIX**. There are  resources for emotional and mental health care, advocacy, and academic support listed [here](https://www.middlebury.edu/office/sites/www.middlebury.edu.office/files/2021-09/bathroom_poster_2021_proofed(1).pdf?fv=DlkQYWaU), some of which are confidential. 
+
+## We Can Help You Borrow a Laptop
+
+An especially important resource for access in many courses in the Department of Computer Science is a functioning laptop. If you ever find yourself temporarily in need of a laptop, we have 10 rotating Windows laptops that we can loan you.  To request a laptop for **short-term use** (like a single class period), email me as soon as possible. 
+
+**On Long-Term Use**: College policy has changed recently to include the expectation that every student have a laptop available. The college provides laptops to those who need them where “need” is based on Student Financial Services calculations. If you anticipate needing a laptop for the whole term, we encourage you to inquire with Student Financial Services and the library first due to our smaller pool of equipment. If, however, the College will not be able to meet your needs in a timely fashion, please reach out to us so that we can work out a long-term laptop loan. 
+
+# Collaboration and Academic Integrity
+
+The guiding principle of Middlebury's Honor Code is that work you represent as your own must reflect **your** learning and understanding. Submission of work that does not reflect your learning and understanding may lead to grade penalties or Honors proceedings. 
+
+## About ChatGPT
+
+### What Is It?
+
+ChatGPT is an example of a *large language model* (LLM). LLMs aim to produce helpful, human-like text with a combination of two major mechanisms: 
+
+- LLMs use *next-token prediction* to predict the next entries in a sequence of text by using the previous entries. This enables them to mimic human-produced text. So, if you saw the sequence "*I love Math Foundations of _____*", you might guess that the next word might be "*Computing*" and that it's probably not "*Pineapples*."
+- LLMs are trained using *reinforcement learning with human feedback (RLHF)* to produce sentences that are not just realistic but also *helpful*, *nonoffensive*, or *accurate*. They do this using a multistage training process that involves humans rating the quality of candidate texts. 
+
+ChatGPT and similar LLMs are shaping many conversations in education [at Middlebury](https://www.middleburycampus.com/article/2023/03/middlebury-meets-chatgpt) and [beyond](https://www.chronicle.com/article/im-a-student-you-have-no-idea-how-much-were-using-chatgpt).
+
+While LLMs may have many benefits, they are also the subject of [routine]((https://analyticsindiamag.com/did-google-bard-really-learn-bengali-on-its-own/)) [deception](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4441311) by powerful, motivated actors. They are powered by [massive quantities](https://www.theverge.com/features/23764584/ai-artificial-intelligence-data-notation-labor-scale-surge-remotasks-openai-chatbots) of [low-paying, traumatizing labor](https://www.wsj.com/articles/chatgpt-openai-content-abusive-sexually-explicit-harassment-kenya-workers-on-human-workers-cf191483). LLMs and automation more generally are [furthering labor instability](https://www.cbsnews.com/news/ai-job-losses-artificial-intelligence-challenger-report/), [contributing to reduced wages](https://www.forbes.com/sites/jackkelly/2021/06/18/artificial-intelligence-has-caused--50-to-70-decrease-in-wages-creating-income-inequality-and-threatening-millions-of-jobs/?sh=6bc1e5c41009), and are [concentrating the power](https://www.nytimes.com/2019/09/26/technology/ai-computer-expense.html) of a small number of large tech companies. 
+
+### In This Class
+
+- Work that you submit in this class must demonstrate **your** learning and understanding. Copy/paste from LLMs like ChatGPT does not do this, and is consequently a violation of academic integrity. 
+- You are free to **consult** ChatGPT (or other LLMs) when troubleshooting, writing code, etc. If you do, **you must treat ChatGPT as an unverified source**. This means: 
+    - You must cite your source. 
+    - You must describe the contribution of the source to your submitted writeup. 
+    - You may paraphrase but may not quote ChatGPT. 
+    - **You must describe what steps you have taken to check that your learning involving ChatGPT is indeed correct**.
+- You are always personally responsible for the accuracy, quality, and integrity of your work.  
+ 
+# Beyond This Course
+
+## General Advice 
+
+I am always happy to talk with you about your future plans, including internships, research opportunities, and graduate school applications. Because I am a creature of the academy, I am less knowledgeable about industry jobs, although you are welcome to ask about those too. You can drop in during Student Hours or email me to make an appointment. 
+
+## Letters of Recommendation 
+
+Writing letters of recommendation for students is a fundamental part of my job and something that I am usually very happy to do. [Here's how to ask me for a letter](https://www.philchodrow.com/for-students.html#advice-and-recommendation-letters). 
+
+
+
+# Acknowledgments
+
+Major components of the course design are adapted from Prof. [Philip Caplan](https://www.cs.middlebury.edu/~pcaplan/)'s previous offering of CSCI 0702. 

@@ -1,0 +1,47 @@
+---
+title: Reflections
+---
+ 
+## Initial Reflection
+
+Please write two entries in your research journal on Overleaf. 
+
+### My Scientific Autobiography
+
+Please write roughly one page for your *scientific autobiography*. In your autobiography, please address the following questions: 
+
+- Please describe your history as a learner and practitioner of computer science. You don't have to list out all the courses you've ever taken, but please consider a few things like: how did you decide to study computer science? 
+- What's a course that's had a major impact on you? 
+- When has CS been the hardest or most discouraging for you? When has it been the most joyful or empowering? How has your view and understanding of CS changed over the years? 
+- If your thesis is connected to another area of study like math, political science, etc., please share a bit about your journey in that area as well. 
+
+Your autobiography is in essay format, but you don't need to attend too much to style. A clear, grammatical, and reflective autobiography is perfect. 
+
+### Statement of Interest
+
+Next, please write another half-page or so about your interest in writing a thesis. 
+
+- Why are you writing a senior thesis in computer science?
+- What is your broad topic area? How did you become interested in it? 
+- What is something that excites you about writing a thesis?
+- What is something about which you are feeling nervous or uncertain? 
+- What are *your* goals for your senior thesis? 
+    - What are your goals for what you produce in terms of research?
+    - What are your goals for how you will learn and grow?
+    - What kinds of evidence or data would tell you whether or not you had achieved your goals?
+
+## Ongoing Reflections
+
+During Winter Term, you should update your research journal to the tune of half a page at least once per day. Whenever a reflection is due on the [schedule](../schedule.qmd), you should add an update to your journal in which you reflect on the process of your work since the last reflection. Your reflection should include: 
+
+- One paragraph in which you describe the work that you did since the last reflection. 
+    - Approximately how many hours did you spend working on your thesis, including 702 meetings and advisor meetings? 
+    - What did you spend your time doing?
+    - What is something that you learned about the topic of your thesis?
+- One paragraph in which you reflect on the experience of working on your thesis. 
+    - Describe something that was exciting, motivating, or successful about your experience since your last reflection. 
+    - Describe something that was challenging, demotivating, or disappointing about your experience since your last reflection. 
+    - What is something that you learned about yourself as a scholar from your recent experience? You can talk about time management strategies, motivation, finding environments for effective writing, etc. 
+- One (short) paragraph in which you describe what you're going to do next, and why. 
+
+

@@ -5,7 +5,7 @@ listing:
     type: table
     fields: [date, Topic, Resources, Due] 
     table-striped: true 
-    date-format: ddd MMM D, YYYY
+    date-format: ddd MMM D, YYYY 
     sort-ui: false
     filter-ui: false   
 toc: false 

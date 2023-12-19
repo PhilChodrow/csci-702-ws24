@@ -6,9 +6,16 @@ $\LaTeX$ is a document preparation markup language created by Donald Knuth and L
 
 Y'all are advanced CS students and know how to Read The Docs. So, this exercise is partly about self-teaching some of core $\LaTeX$ constructs and workflows. It is normal to be confused about some things and normal to spend some time on StackExchange. 
 
-This assignment is not designed to be Very Hard, but it is likely to require some patience and a few hours. 
+This assignment is not designed to be Very Hard, but it is likely to require some patience, some time, and some fearlessness with Googling. 
 
-**Example Solution**: I have created an [example solution](/assets/img/solutions/latex-practice-sol.pdf) for this assignment. You are done when you have made a document that looks like this and uses the tools that I've incidated. You don't have to replicate exactly my text or algorithms, but you must, for example, use commands like `\cref` and `\cite` rather than typing things out by hand. 
+**Example Solution**: I have created an [example solution output](/assets/img/solutions/latex-practice-sol.pdf) for this assignment. You are done when you have made a document that looks like this and uses the tools that I've indicated. You don't have to replicate exactly my text or algorithms, but you must, for example, use commands like `\cref` and `\cite` rather than typing things out by hand. 
+
+# Tips
+
+- The [Overleaf website](https://www.overleaf.com/learn/latex/Tutorials) has a large number of tips and workflows. 
+- I encourage you to help each other out by sharing ideas, pointers to documentation and online resources, etc. Please don't share any code. 
+- The thesis template that is already on Overleaf illustrates most of these techniques. Judicious cannibalism of this document is one good way to complete this assignment. 
+- Organize your solution document in such a way that it is easy for you to see which pieces of code have which effects -- you'll want to use this document as a private reference when writing your thesis. 
 
 ## Make Your Document
 
@@ -127,15 +134,4 @@ On Canvas, submit a sharing link to your Overleaf project containing your soluti
 
 
 
-
-
-
-
-
-# Tips
-
-- The [Overleaf website](https://www.overleaf.com/learn/latex/Tutorials) has a large number of tips and workflows. 
-- I encourage you to help each other out by sharing ideas, pointers to documentation and online resources, etc. Please don't share any code. 
-- The thesis template that is already on Overleaf illustrates most of these techniques. Judicious cannibalism of this document is one good way to complete this assignment. 
-- Organize your document in such a way that it is easy for you to see which pieces of code have which effects -- you'll want to use this document as a private reference when writing your thesis. 
 

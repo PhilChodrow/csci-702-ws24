@@ -32,7 +32,7 @@ Next, please write another half-page or so about your interest in writing a thes
 
 ## Ongoing Reflections
 
-During Winter Term, you should update your research journal to the tune of half a page at least once per day. Whenever a reflection is due on the [schedule](../schedule.qmd), you should add an update to your journal in which you reflect on the process of your work since the last reflection. Your reflection should include: 
+During Winter Term, you should update your research journal to the tune of half a page at least once per day. Whenever a reflection is due on the [schedule](../index.qmd), you should add an update to your journal in which you reflect on the process of your work since the last reflection. Your reflection should include: 
 
 - One paragraph in which you describe the work that you did since the last reflection. 
     - Approximately how many hours did you spend working on your thesis, including 702 meetings and advisor meetings? 

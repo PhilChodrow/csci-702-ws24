@@ -73,7 +73,7 @@ Welcome to CSCI 0702: Senior Thesis. In this course, you will complete a major s
             <b> Key Highlights </b>
         </td>
         <td class="syllabus-description-table-entry">
-            Our [detailed course schedule](schedule.qmd) contains information on required readings, warmup problems, and other assignments.  
+            Our [detailed course schedule](index.qmd) contains information on required readings, warmup problems, and other assignments.  
             <br> 
             I encourage you to call me "Prof. Phil" or "Phil." "Professor Chodrow" is also fine if that's what's most comfortable for you. 
             <br> <br> 

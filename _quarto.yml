@@ -16,7 +16,8 @@ website:
         subtitle: test
         contents:
             - syllabus.qmd
-            - schedule.qmd
+            - text: "Schedule"
+              file: index.qmd
             - resources.qmd
     favicon: assets/icons/favicon.png
 

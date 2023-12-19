@@ -1,24 +1,213 @@
 [
   {
-    "objectID": "schedule.html",
-    "href": "schedule.html",
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "",
+    "section": "",
+    "text": "Giving a Talk workshop slides by Dan Larremore.\n\\(\\LaTeX\\) workshop slides by Dan Larremore.\n© Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "resources.html#guidance",
+    "href": "resources.html#guidance",
+    "title": "",
+    "section": "",
+    "text": "Giving a Talk workshop slides by Dan Larremore.\n\\(\\LaTeX\\) workshop slides by Dan Larremore."
+  },
+  {
+    "objectID": "resources.html#writing-in-latex",
+    "href": "resources.html#writing-in-latex",
+    "title": "",
+    "section": "Writing in \\(\\LaTeX\\)",
+    "text": "Writing in \\(\\LaTeX\\)\n\\(\\LaTeX\\) (“LAH-tek”) is the technical typesetting software used broadly across the quantitative sciences. The vast majority of papers in computer science, mathematics, physics, and engineering are composed with \\(\\LaTeX\\). If you’ve ever taken a math class here at Middlebury, I guarantee that you have interacted with many documents produced using \\(\\LaTeX\\).\nYou will create most of your written deliverables for this course using \\(\\LaTeX\\). I recommend two ways to do this. You can pick a different way, but I recommend doing this only if you are exceptionally comfortable with your software and have already formed distinctive preferences about \\(\\LaTeX\\).\n\nOverleaf is an online service that gives free access to collaborative \\(\\LaTeX\\) document preparation. You can create a free account, supply a template, and immediately begin editing.\nYou can also edit \\(\\LaTeX\\) on your local machine. For example, VSCode offers an excellent extension for \\(\\LaTeX\\) editing called LaTeX Workshop. In order to compile documents locally, you will need to download the \\(\\LaTeX\\) typesetting software itself onto your local machine.\n\nMany other text editors have similar extensions or functionality for working with \\(\\LaTeX\\) documents. I mention VSCode specifically because (a) you may have some exposure to it already and (b) it is my personal choice.\n\n\nIf you like easy solutions, choose Overleaf. If you love your editor or being fully in control of your own software, choose a local installation."
+  },
+  {
+    "objectID": "deliverables/proposal.html",
+    "href": "deliverables/proposal.html",
+    "title": "Thesis Proposal",
+    "section": "",
+    "text": "By the end of Winter Term, you will write a thesis proposal. This proposal describes the work that you have already done, the work that you will do in the spring, and the overall scientific accomplishment that your thesis will represent. Your thesis proposal is proof that you have a plan for completing an interesting and high-quality project.\nDuring Winter term, we’ll work on your thesis proposal through a sequence of assignments.\n© Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "deliverables/proposal.html#what",
+    "href": "deliverables/proposal.html#what",
+    "title": "Thesis Proposal",
+    "section": "What?",
+    "text": "What?\nPlease create a very short presentation of 3 slides (not including your title slide). You should have one slide that addresses each of the following questions:\n\nWhat is the thing that I am going to do?\nWhy am I interested in or excited about that?\n\nNote: at this point, you don’t have to justify why anyone else should be interested in or excited about it.\n\nIf I am completely successful, what would the outcome of my work be?\n\nYou should expect that your in-class presentation will take no longer than 5 minutes.\nPlease do use graphics, diagrams, and technical language used in the area in which you are studying.\nPlease don’t worry about the question of “why is this important?” We’ll address that question in a future presentation.\nSubmit a PDF of your slides on Canvas and be ready to present in class!"
+  },
+  {
+    "objectID": "deliverables/proposal.html#why",
+    "href": "deliverables/proposal.html#why",
+    "title": "Thesis Proposal",
+    "section": "Why?",
+    "text": "Why?\nNow it’s time to clearly state the “why?” of your work. Please create a brief presentation of 5 slides (not including your title slide). Each of your slides should address one of the following sets of questions:\n\nWhat is the thing that I am going to do? (This can be a revision of slides in your “What?” presentation.)\nWhy should people care about that thing getting done?\nWhat previous work exists that has attempted to solve my problem, or closely-related problems?\nWhat is the “gap” in this work? Why is there still more work left to do in this area?\nWhat’s my angle? What’s the idea or secret sauce that makes me believe that I can address this gap in a useful way?\n\nSubmit a PDF of your slides on Canvas and be ready to present in class!"
+  },
+  {
+    "objectID": "deliverables/proposal.html#how",
+    "href": "deliverables/proposal.html#how",
+    "title": "Thesis Proposal",
+    "section": "How?",
+    "text": "How?\nTBD"
+  },
+  {
+    "objectID": "deliverables/proposal.html#thesis-proposal",
+    "href": "deliverables/proposal.html#thesis-proposal",
+    "title": "Thesis Proposal",
+    "section": "Thesis Proposal",
+    "text": "Thesis Proposal"
+  },
+  {
+    "objectID": "deliverables/talk.html",
+    "href": "deliverables/talk.html",
+    "title": "",
+    "section": "",
+    "text": "© Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "deliverables/annotated-bibliography.html",
+    "href": "deliverables/annotated-bibliography.html",
+    "title": "",
+    "section": "",
+    "text": "© Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "deliverables/poster.html",
+    "href": "deliverables/poster.html",
+    "title": "",
+    "section": "",
+    "text": "© Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
     "title": "Schedule",
     "section": "",
     "text": "This schedule is tentative and subject to change.\n© Phil Chodrow, 2023"
   },
   {
-    "objectID": "schedule.html#winter",
-    "href": "schedule.html#winter",
+    "objectID": "index.html#winter",
+    "href": "index.html#winter",
     "title": "Schedule",
     "section": "Winter",
-    "text": "Winter\n\n\n\n\n\nDate\n\n\nTopic\n\n\nResources\n\n\nDue\n\n\n\n\n\n\nFri Jan 5, 2024\n\n\n \n\n\n \n\n\nInitial Reflection\n\n\n\n\nTue Jan 9, 2024\n\n\n \n\n\n \n\n\nUp and Running with \\(\\LaTeX\\)\n\n\n\n\nThu Jan 11, 2024\n\n\n \n\n\n \n\n\nReflection\n\n\n\n\nTue Jan 16, 2024\n\n\nHello and Welcome!  Presentations – What Are You Going To Do?\n\n\n \n\n\n“What?”\n\n\n\n\nWed Jan 17, 2024\n\n\nLiterature Reviews\n\n\nZotero\n\n\n \n\n\n\n\nThu Jan 18, 2024\n\n\nco-writing\n\n\n \n\n\nReflection\n\n\n\n\nMon Jan 22, 2024\n\n\nEffective Presentations\n\n\n \n\n\n \n\n\n\n\nTue Jan 23, 2024\n\n\nPresentations – Why?\n\n\n \n\n\n“Why?”\n\n\n\n\nWed Jan 24, 2024\n\n\nEffective Writing\n\n\n \n\n\n \n\n\n\n\nThu Jan 25, 2024\n\n\nco-writing\n\n\n \n\n\nReflection\n\n\n\n\nMon Jan 29, 2024\n\n\nEffective Graphics\n\n\n \n\n\n \n\n\n\n\nTue Jan 30, 2024\n\n\nPresentations – How?\n\n\n \n\n\n“How?”\n\n\n\n\nWed Jan 31, 2024\n\n\nco-writing\n\n\n \n\n\n \n\n\n\n\nThu Feb 1, 2024\n\n\nPresentation: Thesis Proposal\n\n\n \n\n\n \n\n\n\n\nSun Feb 4, 2024\n\n\n \n\n\n \n\n\nThesis Proposal\n\n\n\n\n\nNo matching items"
+    "text": "Winter\n\n\n\n\n\nDate\n\n\nTopic\n\n\nResources\n\n\nDue\n\n\n\n\n\n\nFri Jan 5, 2024\n\n\n \n\n\n \n\n\nInitial Reflection\n\n\n\n\nTue Jan 9, 2024\n\n\n \n\n\n \n\n\nUp and Running with \\(\\LaTeX\\)\n\n\n\n\nThu Jan 11, 2024\n\n\n \n\n\n \n\n\nReflection\n\n\n\n\nTue Jan 16, 2024\n\n\nHello and Welcome!  Presentations – What Are You Going To Do?\n\n\n \n\n\n“What?”\n\n\n\n\nWed Jan 17, 2024\n\n\nLiterature Reviews\n\n\n \n\n\n \n\n\n\n\nThu Jan 18, 2024\n\n\nco-writing\n\n\n \n\n\nReflection\n\n\n\n\nMon Jan 22, 2024\n\n\nEffective Presentations\n\n\n \n\n\n \n\n\n\n\nTue Jan 23, 2024\n\n\nPresentations – Why?\n\n\n \n\n\n“Why?”\n\n\n\n\nWed Jan 24, 2024\n\n\nEffective Writing\n\n\n \n\n\n \n\n\n\n\nThu Jan 25, 2024\n\n\nco-writing\n\n\n \n\n\nReflection\n\n\n\n\nMon Jan 29, 2024\n\n\nEffective Graphics\n\n\n \n\n\n \n\n\n\n\nTue Jan 30, 2024\n\n\nPresentations – How?\n\n\n \n\n\n“How?”\n\n\n\n\nWed Jan 31, 2024\n\n\nco-writing\n\n\n \n\n\n \n\n\n\n\nThu Feb 1, 2024\n\n\nPresentation: Thesis Proposal\n\n\n \n\n\n \n\n\n\n\nSun Feb 4, 2024\n\n\n \n\n\n \n\n\nThesis Proposal\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "schedule.html#spring",
-    "href": "schedule.html#spring",
+    "objectID": "index.html#spring",
+    "href": "index.html#spring",
     "title": "Schedule",
     "section": "Spring",
     "text": "Spring\nSchedule TBD"
+  },
+  {
+    "objectID": "deliverables/thesis.html",
+    "href": "deliverables/thesis.html",
+    "title": "",
+    "section": "",
+    "text": "© Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "deliverables/thesis.html#draft",
+    "href": "deliverables/thesis.html#draft",
+    "title": "",
+    "section": "Draft",
+    "text": "Draft"
+  },
+  {
+    "objectID": "deliverables/thesis.html#thesis",
+    "href": "deliverables/thesis.html#thesis",
+    "title": "",
+    "section": "Thesis",
+    "text": "Thesis"
+  },
+  {
+    "objectID": "deliverables/reflection.html",
+    "href": "deliverables/reflection.html",
+    "title": "Reflections",
+    "section": "",
+    "text": "Please write two entries in your research journal on Overleaf.\n\n\nPlease write roughly one page for your scientific autobiography. In your autobiography, please address the following questions:\n\nPlease describe your history as a learner and practitioner of computer science. You don’t have to list out all the courses you’ve ever taken, but please consider a few things like: how did you decide to study computer science?\nWhat’s a course that’s had a major impact on you?\nWhen has CS been the hardest or most discouraging for you? When has it been the most joyful or empowering? How has your view and understanding of CS changed over the years?\nIf your thesis is connected to another area of study like math, political science, etc., please share a bit about your journey in that area as well.\n\nYour autobiography is in essay format, but you don’t need to attend too much to style. A clear, grammatical, and reflective autobiography is perfect.\n\n\n\nNext, please write another half-page or so about your interest in writing a thesis.\n\nWhy are you writing a senior thesis in computer science?\nWhat is your broad topic area? How did you become interested in it?\nWhat is something that excites you about writing a thesis?\nWhat is something about which you are feeling nervous or uncertain?\nWhat are your goals for your senior thesis?\n\nWhat are your goals for what you produce in terms of research?\nWhat are your goals for how you will learn and grow?\nWhat kinds of evidence or data would tell you whether or not you had achieved your goals?\n© Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "deliverables/reflection.html#initial-reflection",
+    "href": "deliverables/reflection.html#initial-reflection",
+    "title": "Reflections",
+    "section": "",
+    "text": "Please write two entries in your research journal on Overleaf.\n\n\nPlease write roughly one page for your scientific autobiography. In your autobiography, please address the following questions:\n\nPlease describe your history as a learner and practitioner of computer science. You don’t have to list out all the courses you’ve ever taken, but please consider a few things like: how did you decide to study computer science?\nWhat’s a course that’s had a major impact on you?\nWhen has CS been the hardest or most discouraging for you? When has it been the most joyful or empowering? How has your view and understanding of CS changed over the years?\nIf your thesis is connected to another area of study like math, political science, etc., please share a bit about your journey in that area as well.\n\nYour autobiography is in essay format, but you don’t need to attend too much to style. A clear, grammatical, and reflective autobiography is perfect.\n\n\n\nNext, please write another half-page or so about your interest in writing a thesis.\n\nWhy are you writing a senior thesis in computer science?\nWhat is your broad topic area? How did you become interested in it?\nWhat is something that excites you about writing a thesis?\nWhat is something about which you are feeling nervous or uncertain?\nWhat are your goals for your senior thesis?\n\nWhat are your goals for what you produce in terms of research?\nWhat are your goals for how you will learn and grow?\nWhat kinds of evidence or data would tell you whether or not you had achieved your goals?"
+  },
+  {
+    "objectID": "deliverables/reflection.html#ongoing-reflections",
+    "href": "deliverables/reflection.html#ongoing-reflections",
+    "title": "Reflections",
+    "section": "Ongoing Reflections",
+    "text": "Ongoing Reflections\nDuring Winter Term, you should update your research journal to the tune of half a page at least once per day. Whenever a reflection is due on the schedule, you should add an update to your journal in which you reflect on the process of your work since the last reflection. Your reflection should include:\n\nOne paragraph in which you describe the work that you did since the last reflection.\n\nApproximately how many hours did you spend working on your thesis, including 702 meetings and advisor meetings?\nWhat did you spend your time doing?\nWhat is something that you learned about the topic of your thesis?\n\nOne paragraph in which you reflect on the experience of working on your thesis.\n\nDescribe something that was exciting, motivating, or successful about your experience since your last reflection.\nDescribe something that was challenging, demotivating, or disappointing about your experience since your last reflection.\nWhat is something that you learned about yourself as a scholar from your recent experience? You can talk about time management strategies, motivation, finding environments for effective writing, etc.\n\nOne (short) paragraph in which you describe what you’re going to do next, and why."
+  },
+  {
+    "objectID": "deliverables/latex.html",
+    "href": "deliverables/latex.html",
+    "title": "Up and Running with \\(\\LaTeX\\).",
+    "section": "",
+    "text": "\\(\\LaTeX\\) is a document preparation markup language created by Donald Knuth and Leslie Lamport. \\(\\LaTeX\\) is one of the most widely used pieces of software among scientists and engineers. You will do your reflection writing, thesis drafting, and thesis writing in \\(\\LaTeX\\). The purpose of this exercise is to get you up and running.\nY’all are advanced CS students and know how to Read The Docs. So, this exercise is partly about self-teaching some of core \\(\\LaTeX\\) constructs and workflows. It is normal to be confused about some things and normal to spend some time on StackExchange.\nThis assignment is not designed to be Very Hard, but it is likely to require some patience, some time, and some fearlessness with Googling.\nExample Solution: I have created an example solution output for this assignment. You are done when you have made a document that looks like this and uses the tools that I’ve indicated. You don’t have to replicate exactly my text or algorithms, but you must, for example, use commands like \\cref and \\cite rather than typing things out by hand.\n© Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "deliverables/latex.html#make-your-document",
+    "href": "deliverables/latex.html#make-your-document",
+    "title": "Up and Running with \\(\\LaTeX\\).",
+    "section": "Make Your Document",
+    "text": "Make Your Document\nYou are going to create a document from scratch in which you discover and practice the major daily components of \\(\\LaTeX\\).\nIn your Overleaf thesis project, start by creating a brand new, blank file called latex-practice.tex.\nType the following to state that you want to create a new document of class scrartcl.\n\\documentclass{scrartcl}\n\\begin{document}\n\n\\end{document}"
+  },
+  {
+    "objectID": "deliverables/latex.html#title-author-date",
+    "href": "deliverables/latex.html#title-author-date",
+    "title": "Up and Running with \\(\\LaTeX\\).",
+    "section": "Title, Author, Date",
+    "text": "Title, Author, Date\n\nGive your document a title, author, and date. Note that it is not sufficient to just type these out near the top of the file – you will need to find the correct commands to formally create these fields. The result will look something like the screencap on the right."
+  },
+  {
+    "objectID": "deliverables/latex.html#text-formatting",
+    "href": "deliverables/latex.html#text-formatting",
+    "title": "Up and Running with \\(\\LaTeX\\).",
+    "section": "Text Formatting",
+    "text": "Text Formatting\nCreate a section called “Text Formatting.” There is a special command for making sections.\nWrite a short paragraph – nonsense is fine. Then, create:\n\nSome italicized words and some bolded words.\nA bulleted list (like the one you’re reading right now).\nA numbered list:\n\nLike\nThis\nOne.\n\nAdvanced: a numbered list within a bulleted list, or vice versa.\nA section header."
+  },
+  {
+    "objectID": "deliverables/latex.html#math",
+    "href": "deliverables/latex.html#math",
+    "title": "Up and Running with \\(\\LaTeX\\).",
+    "section": "Math",
+    "text": "Math\nCreate another section called “Math.”\nTo do this part, you will need to use your first packages. You will need to use the amsmath and amssymb packages.\nWrite a big display equation or inequality from the most recent CS/math/phyics course you’ve seen inside an align environment. For example, here’s a definition of the empirical risk in machine learning problems:\n\\[\n\\begin{aligned}\n    R(\\mathbf{X}, \\mathbf{y}) = \\frac{1}{n} \\sum_{i = 1}^n \\ell(f(\\mathbf{x}_i), y_i)\n\\end{aligned}\n\\]\nThen, write a short paragraph in which you describe what the symbols appearing in the equation mean. Your paragraph should include the symbols! For example, in the equation above, \\(R\\) is the name of the empirical risk function. \\(\\mathbf{X}\\in \\mathbb{R}^{n\\times n}\\) is the matrix of predictor data and \\(\\mathbf{y}\\) is a vector of targets. The function \\(\\ell\\) is the loss function and \\(f\\) is the predictor function."
+  },
+  {
+    "objectID": "deliverables/latex.html#citations-and-cross-references",
+    "href": "deliverables/latex.html#citations-and-cross-references",
+    "title": "Up and Running with \\(\\LaTeX\\).",
+    "section": "Citations and Cross-References",
+    "text": "Citations and Cross-References\nCreate another section called “Citations and Cross-References.”\n\nCitations\nWithin this section, create a subsection called “Citations”.\nGrab a .bib file containing a few citations. For now, it’s ok to create this file in any way you want. You can even just reference sampleThesis.bib in the Overleaf, which does not require you to make any new files.\n\nDeclare that you are going to use the biblatex package.\nThen, add your .bib file as a bibliography resource.\nArrange to print your bibliography at the end of the document.\n\nNow we are ready to start citing! Demonstrate the use of \\cite, \\textcite, and \\fullcite to generate citations. Check that the citations appear in your text as well as in the “References” section.\n\n\nCross-References\nCreate another subsection called “Cross-References”.\nFirst, label the equation that you wrote in the previous section. For example, you could label it eq:first-eq. Then, use the command \\cref{eq:first-eq} to generate a cross-reference to this equation in the text of your document. Now you can talk about the equation and your readers will know exactly which one you are talking about!!\nNow let’s make a figure. Your figure must have a figure number (e.g. “Figure 1”) and a caption. Creating a figure in \\(\\LaTeX\\) is a little complex. You will need to create a figure environment, then place a graphic inside that environment, and then add the caption. Your graphic is a file (like .png or .jpeg that can live in a separate folder on Overleaf.)\nNext, give the figure a label which will allow you to refer back to it. For example, you could label it fig:first-fig. Finally, in the text in this section, use the command \\cref{fig:first-fig} to generate a cross-reference to this figure, in which ou say something about it.\nTo do this part, you will need to use more packages: hyperref, cleverref, and graphicx. Some people (like me) think that the default hyperref settings are a little ugly. You can hide links by choosing the optional hidelinks=true argument when declaring the use of hyperref. hyperref must be declared before cleverref."
+  },
+  {
+    "objectID": "deliverables/latex.html#algorithms",
+    "href": "deliverables/latex.html#algorithms",
+    "title": "Up and Running with \\(\\LaTeX\\).",
+    "section": "Algorithms",
+    "text": "Algorithms\nSince we are computer scientists, let’s typeset an algorithm! Declare that you are going to use the algorithm2e package (I think it looks niced with the ruled option). Then, pick your favorite algorithm from 201, 301, or 302 (or any other class) and typeset it. Please show the use of at least one loop or branching structure. Make sure to a description of the input, result, and a brief caption. Also demonstrate making a comment. Give your algorithm a label and refer to it in the main text.\nNote: to correctly use cref with an algorithm, you will need to invoke \\uspackage{algorithm2e} before \\uspackage{algorithm2e}."
+  },
+  {
+    "objectID": "deliverables/latex.html#table-of-contents-and-abstract",
+    "href": "deliverables/latex.html#table-of-contents-and-abstract",
+    "title": "Up and Running with \\(\\LaTeX\\).",
+    "section": "Table Of Contents and Abstract",
+    "text": "Table Of Contents and Abstract\nWow, we’re coming up on a lot of sections here! Let’s make it a little easier for your reader to understand what’s going on. Add an automatic table of contents and an abstract at the beginning of your document. Personally, I liked adding a \\newpage after my table of contents."
+  },
+  {
+    "objectID": "deliverables/latex.html#macros",
+    "href": "deliverables/latex.html#macros",
+    "title": "Up and Running with \\(\\LaTeX\\).",
+    "section": "Macros",
+    "text": "Macros\n\\(\\LaTeX\\) allows you to define your own custom macros, which can be useful for typesetting complicated jargon or frequently-used mathematical symbols. You can think of these macros as something like functions in a programming language.\nCreate a new command called \\alg which, when you type \\alg in your document, renders with the name of an algorithm you like.\nMacros without arguments can be thought of as global constants. If there is a number that depends on an experiment you’ve done, wrapping that number in a macro will let you just change it once (in the macro definition) when you inevitably get a slightly different result from repeating the experiment."
+  },
+  {
+    "objectID": "deliverables/latex.html#appendix",
+    "href": "deliverables/latex.html#appendix",
+    "title": "Up and Running with \\(\\LaTeX\\).",
+    "section": "Appendix",
+    "text": "Appendix\nLet’s make a nice appendix where we can put details that might be a bit too fiddly for the main text. Create a new section that is part of the appendix. The section should be assigned a letter rather than a number to indicate its status."
   },
   {
     "objectID": "syllabus.html",
@@ -96,166 +285,5 @@
     "title": "Syllabus",
     "section": "Letters of Recommendation",
     "text": "Letters of Recommendation\nWriting letters of recommendation for students is a fundamental part of my job and something that I am usually very happy to do. Here’s how to ask me for a letter."
-  },
-  {
-    "objectID": "deliverables/latex.html",
-    "href": "deliverables/latex.html",
-    "title": "Up and Running with \\(\\LaTeX\\).",
-    "section": "",
-    "text": "\\(\\LaTeX\\) is a document preparation markup language created by Donald Knuth and Leslie Lamport. \\(\\LaTeX\\) is one of the most widely used pieces of software among scientists and engineers. You will do your reflection writing, thesis drafting, and thesis writing in \\(\\LaTeX\\). The purpose of this exercise is to get you up and running.\nY’all are advanced CS students and know how to Read The Docs. So, this exercise is partly about self-teaching some of core \\(\\LaTeX\\) constructs and workflows. It is normal to be confused about some things and normal to spend some time on StackExchange.\nThis assignment is not designed to be Very Hard, but it is likely to require some patience and a few hours.\nExample Solution: I have created an example solution for this assignment. You are done when you have made a document that looks like this and uses the tools that I’ve incidated. You don’t have to replicate exactly my text or algorithms, but you must, for example, use commands like \\cref and \\cite rather than typing things out by hand.\n© Phil Chodrow, 2023"
-  },
-  {
-    "objectID": "deliverables/latex.html#make-your-document",
-    "href": "deliverables/latex.html#make-your-document",
-    "title": "Up and Running with \\(\\LaTeX\\).",
-    "section": "Make Your Document",
-    "text": "Make Your Document\nYou are going to create a document from scratch in which you discover and practice the major daily components of \\(\\LaTeX\\).\nIn your Overleaf thesis project, start by creating a brand new, blank file called latex-practice.tex.\nType the following to state that you want to create a new document of class scrartcl.\n\\documentclass{scrartcl}\n\\begin{document}\n\n\\end{document}"
-  },
-  {
-    "objectID": "deliverables/latex.html#title-author-date",
-    "href": "deliverables/latex.html#title-author-date",
-    "title": "Up and Running with \\(\\LaTeX\\).",
-    "section": "Title, Author, Date",
-    "text": "Title, Author, Date\n\nGive your document a title, author, and date. Note that it is not sufficient to just type these out near the top of the file – you will need to find the correct commands to formally create these fields. The result will look something like the screencap on the right."
-  },
-  {
-    "objectID": "deliverables/latex.html#text-formatting",
-    "href": "deliverables/latex.html#text-formatting",
-    "title": "Up and Running with \\(\\LaTeX\\).",
-    "section": "Text Formatting",
-    "text": "Text Formatting\nCreate a section called “Text Formatting.” There is a special command for making sections.\nWrite a short paragraph – nonsense is fine. Then, create:\n\nSome italicized words and some bolded words.\nA bulleted list (like the one you’re reading right now).\nA numbered list:\n\nLike\nThis\nOne.\n\nAdvanced: a numbered list within a bulleted list, or vice versa.\nA section header."
-  },
-  {
-    "objectID": "deliverables/latex.html#math",
-    "href": "deliverables/latex.html#math",
-    "title": "Up and Running with \\(\\LaTeX\\).",
-    "section": "Math",
-    "text": "Math\nCreate another section called “Math.”\nTo do this part, you will need to use your first packages. You will need to use the amsmath and amssymb packages.\nWrite a big display equation or inequality from the most recent CS/math/phyics course you’ve seen inside an align environment. For example, here’s a definition of the empirical risk in machine learning problems:\n\\[\n\\begin{aligned}\n    R(\\mathbf{X}, \\mathbf{y}) = \\frac{1}{n} \\sum_{i = 1}^n \\ell(f(\\mathbf{x}_i), y_i)\n\\end{aligned}\n\\]\nThen, write a short paragraph in which you describe what the symbols appearing in the equation mean. Your paragraph should include the symbols! For example, in the equation above, \\(R\\) is the name of the empirical risk function. \\(\\mathbf{X}\\in \\mathbb{R}^{n\\times n}\\) is the matrix of predictor data and \\(\\mathbf{y}\\) is a vector of targets. The function \\(\\ell\\) is the loss function and \\(f\\) is the predictor function."
-  },
-  {
-    "objectID": "deliverables/latex.html#citations-and-cross-references",
-    "href": "deliverables/latex.html#citations-and-cross-references",
-    "title": "Up and Running with \\(\\LaTeX\\).",
-    "section": "Citations and Cross-References",
-    "text": "Citations and Cross-References\nCreate another section called “Citations and Cross-References.”\n\nCitations\nWithin this section, create a subsection called “Citations”.\nGrab a .bib file containing a few citations. For now, it’s ok to create this file in any way you want. You can even just reference sampleThesis.bib in the Overleaf, which does not require you to make any new files.\n\nDeclare that you are going to use the biblatex package.\nThen, add your .bib file as a bibliography resource.\nArrange to print your bibliography at the end of the document.\n\nNow we are ready to start citing! Demonstrate the use of \\cite, \\textcite, and \\fullcite to generate citations. Check that the citations appear in your text as well as in the “References” section.\n\n\nCross-References\nCreate another subsection called “Cross-References”.\nFirst, label the equation that you wrote in the previous section. For example, you could label it eq:first-eq. Then, use the command \\cref{eq:first-eq} to generate a cross-reference to this equation in the text of your document. Now you can talk about the equation and your readers will know exactly which one you are talking about!!\nNow let’s make a figure. Your figure must have a figure number (e.g. “Figure 1”) and a caption. Creating a figure in \\(\\LaTeX\\) is a little complex. You will need to create a figure environment, then place a graphic inside that environment, and then add the caption. Your graphic is a file (like .png or .jpeg that can live in a separate folder on Overleaf.)\nNext, give the figure a label which will allow you to refer back to it. For example, you could label it fig:first-fig. Finally, in the text in this section, use the command \\cref{fig:first-fig} to generate a cross-reference to this figure, in which ou say something about it.\nTo do this part, you will need to use more packages: hyperref, cleverref, and graphicx. Some people (like me) think that the default hyperref settings are a little ugly. You can hide links by choosing the optional hidelinks=true argument when declaring the use of hyperref. hyperref must be declared before cleverref."
-  },
-  {
-    "objectID": "deliverables/latex.html#algorithms",
-    "href": "deliverables/latex.html#algorithms",
-    "title": "Up and Running with \\(\\LaTeX\\).",
-    "section": "Algorithms",
-    "text": "Algorithms\nSince we are computer scientists, let’s typeset an algorithm! Declare that you are going to use the algorithm2e package (I think it looks niced with the ruled option). Then, pick your favorite algorithm from 201, 301, or 302 (or any other class) and typeset it. Please show the use of at least one loop or branching structure. Make sure to a description of the input, result, and a brief caption. Also demonstrate making a comment. Give your algorithm a label and refer to it in the main text.\nNote: to correctly use cref with an algorithm, you will need to invoke \\uspackage{algorithm2e} before \\uspackage{algorithm2e}."
-  },
-  {
-    "objectID": "deliverables/latex.html#table-of-contents-and-abstract",
-    "href": "deliverables/latex.html#table-of-contents-and-abstract",
-    "title": "Up and Running with \\(\\LaTeX\\).",
-    "section": "Table Of Contents and Abstract",
-    "text": "Table Of Contents and Abstract\nWow, we’re coming up on a lot of sections here! Let’s make it a little easier for your reader to understand what’s going on. Add an automatic table of contents and an abstract at the beginning of your document. Personally, I liked adding a \\newpage after my table of contents."
-  },
-  {
-    "objectID": "deliverables/latex.html#macros",
-    "href": "deliverables/latex.html#macros",
-    "title": "Up and Running with \\(\\LaTeX\\).",
-    "section": "Macros",
-    "text": "Macros\n\\(\\LaTeX\\) allows you to define your own custom macros, which can be useful for typesetting complicated jargon or frequently-used mathematical symbols. You can think of these macros as something like functions in a programming language.\nCreate a new command called \\alg which, when you type \\alg in your document, renders with the name of an algorithm you like.\nMacros without arguments can be thought of as global constants. If there is a number that depends on an experiment you’ve done, wrapping that number in a macro will let you just change it once (in the macro definition) when you inevitably get a slightly different result from repeating the experiment."
-  },
-  {
-    "objectID": "deliverables/latex.html#appendix",
-    "href": "deliverables/latex.html#appendix",
-    "title": "Up and Running with \\(\\LaTeX\\).",
-    "section": "Appendix",
-    "text": "Appendix\nLet’s make a nice appendix where we can put details that might be a bit too fiddly for the main text. Create a new section that is part of the appendix. The section should be assigned a letter rather than a number to indicate its status."
-  },
-  {
-    "objectID": "deliverables/reflection.html",
-    "href": "deliverables/reflection.html",
-    "title": "Reflections",
-    "section": "",
-    "text": "Please write two entries in your research journal on Overleaf.\n\n\nPlease write roughly one page for your scientific autobiography. In your autobiography, please address the following questions:\n\nPlease describe your history as a learner and practitioner of computer science. You don’t have to list out all the courses you’ve ever taken, but please consider a few things like: how did you decide to study computer science?\nWhat’s a course that’s had a major impact on you?\nWhen has CS been the hardest or most discouraging for you? When has it been the most joyful or empowering? How has your view and understanding of CS changed over the years?\nIf your thesis is connected to another area of study like math, political science, etc., please share a bit about your journey in that area as well.\n\nYour autobiography is in essay format, but you don’t need to attend too much to style. A clear, grammatical, and reflective autobiography is perfect.\n\n\n\nNext, please write another half-page or so about your interest in writing a thesis.\n\nWhy are you writing a senior thesis in computer science?\nWhat is your broad topic area? How did you become interested in it?\nWhat is something that excites you about writing a thesis?\nWhat is something about which you are feeling nervous or uncertain?\nWhat are your goals for your senior thesis?\n\nWhat are your goals for what you produce in terms of research?\nWhat are your goals for how you will learn and grow?\nWhat kinds of evidence or data would tell you whether or not you had achieved your goals?\n© Phil Chodrow, 2023"
-  },
-  {
-    "objectID": "deliverables/reflection.html#initial-reflection",
-    "href": "deliverables/reflection.html#initial-reflection",
-    "title": "Reflections",
-    "section": "",
-    "text": "Please write two entries in your research journal on Overleaf.\n\n\nPlease write roughly one page for your scientific autobiography. In your autobiography, please address the following questions:\n\nPlease describe your history as a learner and practitioner of computer science. You don’t have to list out all the courses you’ve ever taken, but please consider a few things like: how did you decide to study computer science?\nWhat’s a course that’s had a major impact on you?\nWhen has CS been the hardest or most discouraging for you? When has it been the most joyful or empowering? How has your view and understanding of CS changed over the years?\nIf your thesis is connected to another area of study like math, political science, etc., please share a bit about your journey in that area as well.\n\nYour autobiography is in essay format, but you don’t need to attend too much to style. A clear, grammatical, and reflective autobiography is perfect.\n\n\n\nNext, please write another half-page or so about your interest in writing a thesis.\n\nWhy are you writing a senior thesis in computer science?\nWhat is your broad topic area? How did you become interested in it?\nWhat is something that excites you about writing a thesis?\nWhat is something about which you are feeling nervous or uncertain?\nWhat are your goals for your senior thesis?\n\nWhat are your goals for what you produce in terms of research?\nWhat are your goals for how you will learn and grow?\nWhat kinds of evidence or data would tell you whether or not you had achieved your goals?"
-  },
-  {
-    "objectID": "deliverables/reflection.html#ongoing-reflections",
-    "href": "deliverables/reflection.html#ongoing-reflections",
-    "title": "Reflections",
-    "section": "Ongoing Reflections",
-    "text": "Ongoing Reflections\nDuring Winter Term, you should update your research journal to the tune of half a page at least once per day. Whenever a reflection is due on the schedule, you should add an update to your journal in which you reflect on the process of your work since the last reflection. Your reflection should include:\n\nOne paragraph in which you describe the work that you did since the last reflection.\n\nApproximately how many hours did you spend working on your thesis, including 702 meetings and advisor meetings?\nWhat did you spend your time doing?\nWhat is something that you learned about the topic of your thesis?\n\nOne paragraph in which you reflect on the experience of working on your thesis.\n\nDescribe something that was exciting, motivating, or successful about your experience since your last reflection.\nDescribe something that was challenging, demotivating, or disappointing about your experience since your last reflection.\nWhat is something that you learned about yourself as a scholar from your recent experience? You can talk about time management strategies, motivation, finding environments for effective writing, etc.\n\nOne (short) paragraph in which you describe what you’re going to do next, and why."
-  },
-  {
-    "objectID": "deliverables/thesis.html",
-    "href": "deliverables/thesis.html",
-    "title": "",
-    "section": "",
-    "text": "© Phil Chodrow, 2023"
-  },
-  {
-    "objectID": "deliverables/thesis.html#draft",
-    "href": "deliverables/thesis.html#draft",
-    "title": "",
-    "section": "Draft",
-    "text": "Draft"
-  },
-  {
-    "objectID": "deliverables/thesis.html#thesis",
-    "href": "deliverables/thesis.html#thesis",
-    "title": "",
-    "section": "Thesis",
-    "text": "Thesis"
-  },
-  {
-    "objectID": "deliverables/poster.html",
-    "href": "deliverables/poster.html",
-    "title": "",
-    "section": "",
-    "text": "© Phil Chodrow, 2023"
-  },
-  {
-    "objectID": "deliverables/annotated-bibliography.html",
-    "href": "deliverables/annotated-bibliography.html",
-    "title": "",
-    "section": "",
-    "text": "© Phil Chodrow, 2023"
-  },
-  {
-    "objectID": "deliverables/talk.html",
-    "href": "deliverables/talk.html",
-    "title": "",
-    "section": "",
-    "text": "© Phil Chodrow, 2023"
-  },
-  {
-    "objectID": "deliverables/proposal.html",
-    "href": "deliverables/proposal.html",
-    "title": "",
-    "section": "",
-    "text": "© Phil Chodrow, 2023"
-  },
-  {
-    "objectID": "resources.html",
-    "href": "resources.html",
-    "title": "",
-    "section": "",
-    "text": "Giving a Talk workshop slides by Dan Larremore.\n\\(\\LaTeX\\) workshop slides by Dan Larremore.\n© Phil Chodrow, 2023"
-  },
-  {
-    "objectID": "resources.html#guidance",
-    "href": "resources.html#guidance",
-    "title": "",
-    "section": "",
-    "text": "Giving a Talk workshop slides by Dan Larremore.\n\\(\\LaTeX\\) workshop slides by Dan Larremore."
-  },
-  {
-    "objectID": "resources.html#writing-in-latex",
-    "href": "resources.html#writing-in-latex",
-    "title": "",
-    "section": "Writing in \\(\\LaTeX\\)",
-    "text": "Writing in \\(\\LaTeX\\)\n\\(\\LaTeX\\) (“LAH-tek”) is the technical typesetting software used broadly across the quantitative sciences. The vast majority of papers in computer science, mathematics, physics, and engineering are composed with \\(\\LaTeX\\). If you’ve ever taken a math class here at Middlebury, I guarantee that you have interacted with many documents produced using \\(\\LaTeX\\).\nYou will create most of your written deliverables for this course using \\(\\LaTeX\\). I recommend two ways to do this. You can pick a different way, but I recommend doing this only if you are exceptionally comfortable with your software and have already formed distinctive preferences about \\(\\LaTeX\\).\n\nOverleaf is an online service that gives free access to collaborative \\(\\LaTeX\\) document preparation. You can create a free account, supply a template, and immediately begin editing.\nYou can also edit \\(\\LaTeX\\) on your local machine. For example, VSCode offers an excellent extension for \\(\\LaTeX\\) editing called LaTeX Workshop. In order to compile documents locally, you will need to download the \\(\\LaTeX\\) typesetting software itself onto your local machine.\n\nMany other text editors have similar extensions or functionality for working with \\(\\LaTeX\\) documents. I mention VSCode specifically because (a) you may have some exposure to it already and (b) it is my personal choice.\n\n\nIf you like easy solutions, choose Overleaf. If you love your editor or being fully in control of your own software, choose a local installation."
   }
 ]

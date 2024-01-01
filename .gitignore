@@ -1,2 +1,4 @@
 private
 /.quarto/
+*.DS_Store
+*/.DS_Store

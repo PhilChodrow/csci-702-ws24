@@ -1,0 +1,42 @@
+# Annotated Bibliography
+
+An annotated bibliography is a list of complete citations of scholarly sources, alongside *annotations* by you describing what happens in the paper and how it's relevant for your project. In this deliverable, you will create an annotated bibliography for your thesis project. 
+
+## Part 1
+
+Please construct an initial annotated bibliography containing **at least 7** scholarly sources. Your sources can address a range of questions, like: 
+
+- Why is this problem important? 
+- Who has worked on this problem before? 
+- What are the strengths or limitations of existing solution methods?
+- In what way is my planned approach different from what's been done so far? 
+
+Accompanying each reference, please include a generous paragraph of annotation. Your paragraph should address the following questions: 
+
+- What is the major contribution of the scholarly source? 
+- What are the strengths or limitations of this contribution?
+- How is this contribution relevant to my own plans?
+
+It's not necessary for you to focus on style. Just make sure that your annotations are in complete sentences that are readable to you, your advisor, and me. 
+
+Render the PDF and submit your bibliography on Canvas when you're done. 
+
+## Part 2
+
+Please follow the same instructions above, adding 7 more sources to your bibliography. 
+
+## Workflow
+
+The file `annotated-bibliography.tex` has been provided for you on OverLeaf. To add an entry: 
+
+1. Ensure that the reference you wish to cite is in a `.bib` file present in the workspace. 
+2. Ensure that the command `\addbibresource` has been used to make that `.bib` file visible to the document. 
+3. Use the command `\annotationcite` to insert a complete reference to the scholarly source you wish to discuss. 
+4. Type your annotating text under the `\annotationcite` command. 
+5. Recompile as needed. 
+
+## How To Find Sources? 
+
+The best way is just to ask your advisor for readings! Another common and good technique is to take a paper that you know is relevant and search for papers that it cites (or that cite it) in Google Scholar. 
+
+The Middlebury Library system has some useful resources for getting around paywalls. Additionally, many articles are available for free as preprints on sites like [`arXiv.org`](https://arxiv.org/). If you suspect that you need a specific source and are having trouble getting around the paywall, please talk to me or your advisor. 

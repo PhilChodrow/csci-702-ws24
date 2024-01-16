@@ -65,9 +65,37 @@
   {
     "objectID": "deliverables/annotated-bibliography.html",
     "href": "deliverables/annotated-bibliography.html",
-    "title": "",
+    "title": "Annotated Bibliography",
     "section": "",
-    "text": "© Phil Chodrow, 2023"
+    "text": "An annotated bibliography is a list of complete citations of scholarly sources, alongside annotations by you describing what happens in the paper and how it’s relevant for your project. In this deliverable, you will create an annotated bibliography for your thesis project.\n\n\nPlease construct an initial annotated bibliography containing at least 7 scholarly sources. Your sources can address a range of questions, like:\n\nWhy is this problem important?\nWho has worked on this problem before?\nWhat are the strengths or limitations of existing solution methods?\nIn what way is my planned approach different from what’s been done so far?\n\nAccompanying each reference, please include a generous paragraph of annotation. Your paragraph should address the following questions:\n\nWhat is the major contribution of the scholarly source?\nWhat are the strengths or limitations of this contribution?\nHow is this contribution relevant to my own plans?\n\nIt’s not necessary for you to focus on style. Just make sure that your annotations are in complete sentences that are readable to you, your advisor, and me.\nRender the PDF and submit your bibliography on Canvas when you’re done.\n\n\n\nPlease follow the same instructions above, adding 7 more sources to your bibliography.\n\n\n\nThe file annotated-bibliography.tex has been provided for you on OverLeaf. To add an entry:\n\nEnsure that the reference you wish to cite is in a .bib file present in the workspace.\nEnsure that the command \\addbibresource has been used to make that .bib file visible to the document.\nUse the command \\annotationcite to insert a complete reference to the scholarly source you wish to discuss.\nType your annotating text under the \\annotationcite command.\nRecompile as needed.\n\n\n\n\nThe best way is just to ask your advisor for readings! Another common and good technique is to take a paper that you know is relevant and search for papers that it cites (or that cite it) in Google Scholar.\nThe Middlebury Library system has some useful resources for getting around paywalls. Additionally, many articles are available for free as preprints on sites like arXiv.org. If you suspect that you need a specific source and are having trouble getting around the paywall, please talk to me or your advisor.\n© Phil Chodrow, 2023"
+  },
+  {
+    "objectID": "deliverables/annotated-bibliography.html#part-1",
+    "href": "deliverables/annotated-bibliography.html#part-1",
+    "title": "Annotated Bibliography",
+    "section": "",
+    "text": "Please construct an initial annotated bibliography containing at least 7 scholarly sources. Your sources can address a range of questions, like:\n\nWhy is this problem important?\nWho has worked on this problem before?\nWhat are the strengths or limitations of existing solution methods?\nIn what way is my planned approach different from what’s been done so far?\n\nAccompanying each reference, please include a generous paragraph of annotation. Your paragraph should address the following questions:\n\nWhat is the major contribution of the scholarly source?\nWhat are the strengths or limitations of this contribution?\nHow is this contribution relevant to my own plans?\n\nIt’s not necessary for you to focus on style. Just make sure that your annotations are in complete sentences that are readable to you, your advisor, and me.\nRender the PDF and submit your bibliography on Canvas when you’re done."
+  },
+  {
+    "objectID": "deliverables/annotated-bibliography.html#part-2",
+    "href": "deliverables/annotated-bibliography.html#part-2",
+    "title": "Annotated Bibliography",
+    "section": "",
+    "text": "Please follow the same instructions above, adding 7 more sources to your bibliography."
+  },
+  {
+    "objectID": "deliverables/annotated-bibliography.html#workflow",
+    "href": "deliverables/annotated-bibliography.html#workflow",
+    "title": "Annotated Bibliography",
+    "section": "",
+    "text": "The file annotated-bibliography.tex has been provided for you on OverLeaf. To add an entry:\n\nEnsure that the reference you wish to cite is in a .bib file present in the workspace.\nEnsure that the command \\addbibresource has been used to make that .bib file visible to the document.\nUse the command \\annotationcite to insert a complete reference to the scholarly source you wish to discuss.\nType your annotating text under the \\annotationcite command.\nRecompile as needed."
+  },
+  {
+    "objectID": "deliverables/annotated-bibliography.html#how-to-find-sources",
+    "href": "deliverables/annotated-bibliography.html#how-to-find-sources",
+    "title": "Annotated Bibliography",
+    "section": "",
+    "text": "The best way is just to ask your advisor for readings! Another common and good technique is to take a paper that you know is relevant and search for papers that it cites (or that cite it) in Google Scholar.\nThe Middlebury Library system has some useful resources for getting around paywalls. Additionally, many articles are available for free as preprints on sites like arXiv.org. If you suspect that you need a specific source and are having trouble getting around the paywall, please talk to me or your advisor."
   },
   {
     "objectID": "deliverables/poster.html",
@@ -88,7 +116,7 @@
     "href": "index.html#winter",
     "title": "Schedule",
     "section": "Winter",
-    "text": "Winter\n\n\n\n\n\nDate\n\n\nTopic\n\n\nResources\n\n\nDue\n\n\n\n\n\n\nFri Jan 5, 2024\n\n\n \n\n\n \n\n\nInitial Reflection\n\n\n\n\nTue Jan 9, 2024\n\n\n \n\n\n \n\n\nUp and Running with \\(\\LaTeX\\)\n\n\n\n\nThu Jan 11, 2024\n\n\n \n\n\n \n\n\nReflection\n\n\n\n\nTue Jan 16, 2024\n\n\nHello and Welcome!  Presentations – What Are You Going To Do?\n\n\n \n\n\n“What?”\n\n\n\n\nWed Jan 17, 2024\n\n\nLiterature Reviews\n\n\n \n\n\n \n\n\n\n\nThu Jan 18, 2024\n\n\nco-writing\n\n\n \n\n\nReflection\n\n\n\n\nMon Jan 22, 2024\n\n\nEffective Presentations\n\n\n \n\n\n \n\n\n\n\nTue Jan 23, 2024\n\n\nNo meeting – Phil is having an operation\n\n\n \n\n\n \n\n\n\n\nWed Jan 24, 2024\n\n\nPresentations – Why?\n\n\n \n\n\n“Why?”\n\n\n\n\nThu Jan 25, 2024\n\n\nEffective Writing\n\n\n \n\n\nReflection\n\n\n\n\nMon Jan 29, 2024\n\n\nEffective Graphics\n\n\n \n\n\n \n\n\n\n\nTue Jan 30, 2024\n\n\nPresentations – How?\n\n\n \n\n\n“How?”\n\n\n\n\nWed Jan 31, 2024\n\n\nco-writing\n\n\n \n\n\n \n\n\n\n\nThu Feb 1, 2024\n\n\nPresentation: Thesis Proposal\n\n\n \n\n\n \n\n\n\n\nSun Feb 4, 2024\n\n\n \n\n\n \n\n\nThesis Proposal\n\n\n\n\n\nNo matching items"
+    "text": "Winter\n\n\n\n\n\nDate\n\n\nTopic\n\n\nResources\n\n\nDue\n\n\n\n\n\n\nFri Jan 5, 2024\n\n\n \n\n\n \n\n\nInitial Reflection\n\n\n\n\nTue Jan 9, 2024\n\n\n \n\n\n \n\n\nUp and Running with \\(\\LaTeX\\)\n\n\n\n\nThu Jan 11, 2024\n\n\n \n\n\n \n\n\nReflection\n\n\n\n\nTue Jan 16, 2024\n\n\nHello and Welcome!  Presentations – What Are You Going To Do?\n\n\n \n\n\n“What?”\n\n\n\n\nWed Jan 17, 2024\n\n\nLiterature Reviews\n\n\n \n\n\n \n\n\n\n\nThu Jan 18, 2024\n\n\nco-writing\n\n\n \n\n\nReflection\n\n\n\n\nMon Jan 22, 2024\n\n\nEffective Presentations\n\n\n \n\n\nAnnotated Bibliography I\n\n\n\n\nTue Jan 23, 2024\n\n\nNo meeting – Phil is having an operation\n\n\n \n\n\n \n\n\n\n\nWed Jan 24, 2024\n\n\nPresentations – Why?\n\n\n \n\n\n“Why?”\n\n\n\n\nThu Jan 25, 2024\n\n\nEffective Writing\n\n\n \n\n\nReflection\n\n\n\n\nFri Jan 26, 2024\n\n\n \n\n\n \n\n\nAnnotated Bibliography II\n\n\n\n\nMon Jan 29, 2024\n\n\nEffective Graphics\n\n\n \n\n\n \n\n\n\n\nTue Jan 30, 2024\n\n\nPresentations – How?\n\n\n \n\n\n“How?”\n\n\n\n\nWed Jan 31, 2024\n\n\nco-writing\n\n\n \n\n\n \n\n\n\n\nThu Feb 1, 2024\n\n\nPresentation: Thesis Proposal\n\n\n \n\n\n \n\n\n\n\nSun Feb 4, 2024\n\n\n \n\n\n \n\n\nThesis Proposal\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#spring",

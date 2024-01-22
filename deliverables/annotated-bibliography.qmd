@@ -27,7 +27,7 @@ Please follow the same instructions above, adding 7 more sources to your bibliog
 
 ## Workflow
 
-The file `annotated-bibliography.tex` has been provided for you on OverLeaf. To add an entry: 
+The file `annotated-bibliography.tex` has been provided for you on Overleaf. To add an entry: 
 
 1. Ensure that the reference you wish to cite is in a `.bib` file present in the workspace. 
 2. Ensure that the command `\addbibresource` has been used to make that `.bib` file visible to the document. 

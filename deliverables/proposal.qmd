@@ -135,5 +135,3 @@ Your thesis proposal is a written version of your proposal presentation. You can
     - When structuring a results section, I often find it helpful to generate my figures (and captions) *first*, and then build my story around them. 
     - Your story is a narrative of your scientific findings, not of the work you did to get them. If you spent a lot of time on something that ultimately didn't work out, you should spend at most a few sentences in your proposal explaining what you did, why it didn't work, and how that's relevant to what *did* work. 
 
-
-

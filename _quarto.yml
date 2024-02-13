@@ -20,6 +20,7 @@ website:
               file: index.qmd
             - resources.qmd
     favicon: assets/icons/favicon.png
+    
 
 format:
     html:
@@ -30,6 +31,7 @@ format:
         reference-location: margin
         callout-icon: false;
         callout-appearance: simple
+        bibliography: refs.bib
 
 execute:
     cache: true

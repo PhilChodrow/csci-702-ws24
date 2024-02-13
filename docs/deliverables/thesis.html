@@ -20,7 +20,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -66,11 +85,13 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="../assets/css/styles.css">
 </head>
 
-<body class="nav-sidebar docked">
+<body class="nav-sidebar docked slimcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -134,30 +155,234 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#outline" id="toc-outline" class="nav-link active" data-scroll-target="#outline">Outline</a></li>
-  <li><a href="#draft" id="toc-draft" class="nav-link" data-scroll-target="#draft">Draft</a></li>
-  <li><a href="#thesis" id="toc-thesis" class="nav-link" data-scroll-target="#thesis">Thesis</a></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#guidance" id="toc-guidance" class="nav-link" data-scroll-target="#guidance">Guidance</a>
+  <ul class="collapse">
+  <li><a href="#find-an-example" id="toc-find-an-example" class="nav-link" data-scroll-target="#find-an-example">Find An Example</a></li>
+  <li><a href="#know-your-audience" id="toc-know-your-audience" class="nav-link" data-scroll-target="#know-your-audience">Know Your Audience</a></li>
+  <li><a href="#good-writing-is-dense" id="toc-good-writing-is-dense" class="nav-link" data-scroll-target="#good-writing-is-dense">Good Writing is Dense</a>
+  <ul class="collapse">
+  <li><a href="#use-math-and-algorithms" id="toc-use-math-and-algorithms" class="nav-link" data-scroll-target="#use-math-and-algorithms">Use Math and Algorithms</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#deliverables" id="toc-deliverables" class="nav-link" data-scroll-target="#deliverables">Deliverables</a>
+  <ul class="collapse">
+  <li><a href="#outline" id="toc-outline" class="nav-link" data-scroll-target="#outline">Outline</a>
+  <ul class="collapse">
+  <li><a href="#example-1" id="toc-example-1" class="nav-link" data-scroll-target="#example-1">Example 1</a></li>
+  <li><a href="#example-2" id="toc-example-2" class="nav-link" data-scroll-target="#example-2">Example 2</a></li>
+  </ul></li>
+  <li><a href="#sec-structure" id="toc-sec-structure" class="nav-link" data-scroll-target="#sec-structure">Sections</a>
+  <ul class="collapse">
+  <li><a href="#sec-intro" id="toc-sec-intro" class="nav-link" data-scroll-target="#sec-intro">Introduction</a></li>
+  <li><a href="#sec-lit" id="toc-sec-lit" class="nav-link" data-scroll-target="#sec-lit">Literature Review</a></li>
+  <li><a href="#sec-methods" id="toc-sec-methods" class="nav-link" data-scroll-target="#sec-methods">Methods</a></li>
+  <li><a href="#sec-results" id="toc-sec-results" class="nav-link" data-scroll-target="#sec-results">Results</a></li>
+  <li><a href="#sec-discussion" id="toc-sec-discussion" class="nav-link" data-scroll-target="#sec-discussion">Discussion</a></li>
+  </ul></li>
+  <li><a href="#optional-appendices" id="toc-optional-appendices" class="nav-link" data-scroll-target="#optional-appendices">(Optional): Appendices</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 
 
-<section id="outline" class="level2">
+<section id="introduction" class="level1">
+<h1>Introduction</h1>
+<p>Your thesis is the primary deliverable of your time in 702. It is a structured presentation of your learning and scientific achievement. Its structure should be similar to that of other papers in your scientific area. For most theses, the structure described <a href="#sec-structure" class="quarto-xref">Section&nbsp;3.2</a> is appropriate, but deviations from this structure can be made with the permission of your advisor and myself.</p>
+</section>
+<section id="guidance" class="level1">
+<h1>Guidance</h1>
+<p>The <em><a href="https://sites.middlebury.edu/middsciwriting/">Write Like a Scientist</a></em> page has excellent step-by-step instructions for scientific writing, and was put together by folks at Middlebury!</p>
+<section id="find-an-example" class="level2">
+<h2 class="anchored" data-anchor-id="find-an-example">Find An Example</h2>
+<p>The best way to write well is to carefully read models of good writing. One kind of good model is a previous Middlebury thesis! You can find some examples of Middlebury CS theses <a href="https://middlebury.figshare.com/search?groups=46350&amp;itemTypes=8&amp;categories=35549">here</a>. Once you find a thesis, it is best to confer with your advisor about whether that thesis is a good one to emulate.</p>
+<p>Another good approach is to find an academic paper in your area that is considered to be an especially useful, insightful, or seminal paper. Try structuring your writing like that!</p>
+</section>
+<section id="know-your-audience" class="level2">
+<h2 class="anchored" data-anchor-id="know-your-audience">Know Your Audience</h2>
+<p>Your audience is the Computer Science faculty of Middlebury College. You can assume that we are comfortable with math, algorithms, and computational experiments. However, you should also assume that most of us know very little about the topic you are working on. You will need to spend plenty of time explaining that, especially in your introduction (<a href="#sec-intro" class="quarto-xref">Section&nbsp;3.2.1</a>).</p>
+</section>
+<section id="good-writing-is-dense" class="level2">
+<h2 class="anchored" data-anchor-id="good-writing-is-dense">Good Writing is Dense</h2>
+<p>Excellent scientific writing is dense. It is concise, rich in meaning, and without <a href="https://matt.might.net/articles/shell-scripts-for-passive-voice-weasel-words-duplicates/">weasel words</a>. Theses are not necessarily extremely long — we have seen good theses with as few as 35-40 double-spaced pages—but each page has <strong>a lot</strong> of meaning.</p>
+<section id="use-math-and-algorithms" class="level3">
+<h3 class="anchored" data-anchor-id="use-math-and-algorithms">Use Math and Algorithms</h3>
+<p>As scientists, part of our responsibility is to describe our work in the most precise way possible. The gold standard for precision in quantitative science is the language of mathematics and algorithms. Some tips:</p>
+<ul>
+<li>When describing a measure of quality or error, give a formula.</li>
+<li>When describing an algorithm, use <a href="https://www.overleaf.com/learn/latex/Algorithms">an algorithm environment</a> in <span class="math inline">\(\LaTeX\)</span>.</li>
+<li>Use <a href="https://www.overleaf.com/learn/latex/Tables">tables</a> to efficiently display the results of experiments that don’t fit neatly into figures.</li>
+</ul>
+</section>
+</section>
+</section>
+<section id="deliverables" class="level1 page-columns page-full">
+<h1>Deliverables</h1>
+<p>This section includes a complete set of deliverables related to your thesis document.</p>
+<section id="outline" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="outline">Outline</h2>
+<p>Your <strong>outline</strong> is a plan for the writing of your thesis. It’s a birdseye view of the whole thing. Your plans may change and you may deviate from your outline as you go—that’s fine—but you should do so with intention and purpose.</p>
+<ol type="1">
+<li>Please read the descriptions and scaffolding for each of the five sections described in <a href="#sec-structure" class="quarto-xref">Section&nbsp;3.2</a>.</li>
+<li>Your outline should include each of these sections, along with a list of 3-5 bullet-point sentences describing what you will communicate to your reader. Together, these sentences form an “abstract” of the section.
+<ul>
+<li>These should be <strong>complete sentences</strong>, not phrases, each of which makes a claim that advances the arc of your thesis.</li>
+</ul></li>
+<li>Below each sentence, please include references to what you will use to support the claim. These could be literature references; references to a figure you will create; etc. It’s ok to skip these references for the methods and discussion sections.</li>
+</ol>
+<p>Submit your outline as a PDF on Canvas.</p>
+<section id="example-1" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="example-1">Example 1</h3>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="">This example is from a hypothetical literature review section.</span></div></div>
+<ol type="1">
+<li>Although the question of fairness in machine learning is very important, there is no consensus on which definitions of fairness should be used in different application areas.
+<ul>
+<li><span class="citation" data-cites="barocas2023fairness">Barocas, Hardt, and Narayanan (<a href="#ref-barocas2023fairness" role="doc-biblioref">2023</a>)</span></li>
+</ul></li>
+<li>Furthermore, some of these definitions of fairness are incompatible with each other.
+<ul>
+<li><span class="citation" data-cites="chouldechova2017fair">Chouldechova (<a href="#ref-chouldechova2017fair" role="doc-biblioref">2017</a>)</span>, <span class="citation" data-cites="corbett2017algorithmic">Corbett-Davies et al. (<a href="#ref-corbett2017algorithmic" role="doc-biblioref">2017</a>)</span>, <span class="citation" data-cites="kleinberg2016inherent">Kleinberg, Mullainathan, and Raghavan (<a href="#ref-kleinberg2016inherent" role="doc-biblioref">2016</a>)</span></li>
+</ul></li>
+<li>One source of bias is failure to carefully specify the target variable and ensure that the target is appropriately reflective of the goal of the predictive model.
+<ul>
+<li><span class="citation" data-cites="obermeyer2019dissecting">Obermeyer et al. (<a href="#ref-obermeyer2019dissecting" role="doc-biblioref">2019</a>)</span></li>
+</ul></li>
+<li>…</li>
+</ol>
 </section>
-<section id="draft" class="level2">
-<h2 class="anchored" data-anchor-id="draft">Draft</h2>
+<section id="example-2" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="example-2">Example 2</h3>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="">This example is from a hypothetical results section.</span></div></div>
+<ol type="1">
+<li>Across several different tasks, our proposed algorithm performs slightly better than existing state of the art (SOTA).
+<ul>
+<li>Table 1 showing task descriptions, our performance, SOTA performance, and timings.</li>
+</ul></li>
+<li>Our proposed algorithm also performs well on a broader range of tasks than are feasible with SOTA.
+<ul>
+<li>Table 2 showing our algorithm working on examples where SOTA can’t even be run.</li>
+</ul></li>
+<li>Although our algorithm generates overall higher-quality solutions, the resulting solutions are not as easily interpretable or intuitive as SOTA.
+<ul>
+<li>Figure 1 showing our algorithm output in comparison to SOTA.</li>
+</ul></li>
+<li>…</li>
+</ol>
 </section>
-<section id="thesis" class="level2">
-<h2 class="anchored" data-anchor-id="thesis">Thesis</h2>
+</section>
+<section id="sec-structure" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="sec-structure">Sections</h2>
+<section id="sec-intro" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="sec-intro">Introduction</h3>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="">A reasonable target for your introduction is <strong>4-6 double-spaced pages</strong>, not including references.</span></div></div>
+<p>Your introduction is your reader’s gateway into your thesis topic. By the end of your introduction, the reader should understand what your problem is, why it’s important, why <strong>you</strong> need to work on it, what your overall approach is, and what to expect as they continue reading.</p>
+</section>
+<section id="sec-lit" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="sec-lit">Literature Review</h3>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="">A reasonable target for your literature review is <strong>6-8 double-spaced pages</strong>, not including references. A fair target for a literature review is around <strong>30</strong> references discussed, and <strong>20</strong> would be a minimum. You may deviate from this with the consent of your thesis advisor. Literature review sections are often titled “Related Work.”</span></div></div>
+<p>Your literature review is a survey of literature related to your topic. Your literature review should discuss a range of scholarly references and highlight their importance to your problem or related ideas.</p>
+<p>One way to think about what you should include: your topic is probably an <em>intersection</em> of several ideas. For example, if my topic is “modified gradient descent for fairness-penalized classification models,” then my topic is the intersection of:</p>
+<ul>
+<li>Gradient descent algorithms</li>
+<li>Fairness in machine learning</li>
+<li>Penalty methods in optimization</li>
+<li>Classification models</li>
+</ul>
+<p>It would be appropriate for my literature review to discuss sources in all of these areas, though not necessarily in that order.</p>
+<p>It is often, but not always, appropriate for the introduction and literature review to contain illustrative diagrams to help your reader understand what it is that we are talking about and why so many people care about it. For the final thesis, these diagrams should be created <strong>by you</strong>, and not copied (even with attribution) from other sources.</p>
+<section id="writing-style-for-literature-reviews" class="level4">
+<h4 class="anchored" data-anchor-id="writing-style-for-literature-reviews">Writing Style for Literature Reviews</h4>
+<ul>
+<li>It’s easy to say have sentences like “<span class="citation" data-cites="barocas2023fairness">Barocas, Hardt, and Narayanan (<a href="#ref-barocas2023fairness" role="doc-biblioref">2023</a>)</span> discuss the importance of fairness in machine learning” over and over. Avoid this! Instead, use active verbs and specific claims or ideas. “<span class="citation" data-cites="barocas2023fairness">Barocas, Hardt, and Narayanan (<a href="#ref-barocas2023fairness" role="doc-biblioref">2023</a>)</span> <em>argue</em> that fairness in machine learning is multifaceted and <em>demonstrate</em> how different formulations are appropriate in different contexts.” Some other good phrases are: <em>proves that</em>, <em>shows</em>, <em>formulates/invents</em>, <em>criticizes</em>, <em>improves ____ by doing ____</em>, etc.</li>
+<li>In <span class="math inline">\(\LaTeX\)</span>, you can use <code>\cite{source1, source2}</code> to cite multiple sources simultaneously.</li>
+<li>In scientific writing, we very rarely quote. Instead, paraphrase and cite.</li>
+<li>It’s most common to simply write a sentence about a matter of fact and then cite, e.g.&nbsp;“Fairness in machine learning is a multifaceted topic <span class="citation" data-cites="barocas2023fairness">(<a href="#ref-barocas2023fairness" role="doc-biblioref">Barocas, Hardt, and Narayanan 2023</a>)</span>.” It’s also fine to use the authors as the subject of the sentence, e.g.&nbsp;“<span class="citation" data-cites="barocas2023fairness">Barocas, Hardt, and Narayanan (<a href="#ref-barocas2023fairness" role="doc-biblioref">2023</a>)</span> argue that fairness in machine learning is multifaceted.” It’s best to do this relatively rarely.</li>
+</ul>
+</section>
+</section>
+<section id="sec-methods" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="sec-methods">Methods</h3>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="">A reasonable target for your methods section is <strong>8-12 double-spaced pages</strong>, not including references. The necessary length of this section can be highly variable and you should consult with your advisor about what target length might be right for you.</span></div></div>
+<p>Your methods section is where you should describe the details of what exactly you are doing. This is the place for algorithms, equations, and descriptions of experimental protocols.</p>
+<section id="math-and-algorithms" class="level4 page-columns page-full">
+<h4 class="anchored" data-anchor-id="math-and-algorithms">Math and Algorithms</h4>
+<p>Use them! Correctly incorporating mathematics and algorithms into your scientific writing is largely a matter of <em>defining your terms</em>. Here’s an example equation:</p>
+<p><span id="eq-empirical-risk"><span class="math display">\[
+\begin{aligned}
+    R(\mathbf{X}, \mathbf{y}) = \frac{1}{n} \sum_{i = 1}^n \ell(f(\mathbf{x}_i), y_i)
+\end{aligned}
+\tag{1}\]</span></span></p>
+<div class="page-columns page-full"><p><strong><em>This equation does not mean anything.</em></strong> That’s because it has a bunch of symbols that haven’t been defined yet. Every mathematical symbol needs to be explicitly defined, usually in the body of the text.  In this example, I would display the equation above and then immediately follow it with something like this:</p><div class="no-row-height column-margin column-container"><span class="">It’s not a big problem if the symbol is defined much earlier in the text, as long as you are giving the reader occasional reminders to help them remember what means what.</span></div></div>
+<blockquote class="blockquote">
+<p><a href="#eq-empirical-risk" class="quarto-xref">Equation&nbsp;1</a> defines the empirical risk function <span class="math inline">\(R\)</span>. In this equation, <span class="math inline">\(n\)</span> is the number of distinct data points, <span class="math inline">\(p\)</span> is the number of features, <span class="math inline">\(\mathbf{X}\in \mathbb{R}^{n\times p}\)</span> is the matrix of predictor data and <span class="math inline">\(\mathbf{y}\)</span> is a vector of targets. The function <span class="math inline">\(\ell\)</span> is the loss function and <span class="math inline">\(f\)</span> is the predictor function.</p>
+</blockquote>
+<p>You should similarly use algorithms – with carefully-defined mathematical symbols – to express your ideas. Your aim should be that your reader could <em>with patience</em> reimplement exactly your own methods, without needing to “guess” at any of the mathematical or algorithmic choices you made along the way.</p>
+</section>
+<section id="describe-experiments" class="level4">
+<h4 class="anchored" data-anchor-id="describe-experiments">Describe Experiments</h4>
+<p>The methods section is also a good place to describe <em>how</em> you test your algorithm/model/implementation/protocol, but not <em>what</em> the results are. Things that should go in here may include:</p>
+<ul>
+<li>The conditions of your computational experiments: number of steps, size of problem, etc.</li>
+<li>A mathematical description of what you are measuring in those experiments; e.g.&nbsp;error, variance, mean, runtime, etc. In many cases it is useful to measure multiple things; e.g.&nbsp;error and runtime both.</li>
+<li>The specs of the machine on which you did those experiments.</li>
+<li>How you designed and administered a user survey; how you incorporated feedback from the survey into your product; etc.</li>
+<li>Any competitors (algorithms, products, etc.) that you compared to yours, and a description of how you made the comparison. If these are published, then you don’t usually need to go into detail – just the name of the competitor and a citation is fine.</li>
+</ul>
+</section>
+</section>
+<section id="sec-results" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="sec-results">Results</h3>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="">A reasonable target for your results section is <strong>6-10 double-spaced pages</strong>, not including references. The necessary length of this section can be highly variable and you should consult with your advisor about what target length might be right for you.</span></div></div>
+<div class="page-columns page-full"><p>This is where we show that your innovation is Good, Actually. Your results section is the place to tell your reader about the outcomes of your experiments; the feedback that you received; etc. The exact structure of the results section depends on the kinds of results you have to share and how you present them, and so a major undertaking for the results section is simply the design of effective scientific graphics and tables.  Figures are often best for showing big-picture patterns, while tables are most relevant when it is important for your reader to compare two specific numbers (for example, the error achieved by your algorithm vs.&nbsp;the error achieved by a competitor).</p><div class="no-row-height column-margin column-container"><span class="">I personally find that it is often easiest for me to focus on designing graphics; then populate the results section with the graphics in the correct sequence; and then write “around” the graphics.</span></div></div>
+<p>Remember that no figures or tables speak for themselves; it is your job to write captions and paragraph discussions. Captions are for ensuring that the reader is technically able to understand all the symbols and markings in the figures, while paragraph discussions are for telling the story.</p>
+<p>Your results section is a good place to comment on comparisons (“Our algorithm was faster than the competitor by approximately 1 order of magnitude while achieving similar error.”). It’s not the right place to comment on the significance of this (“this is a big deal for users”); that’s for the Discussion section.</p>
+</section>
+<section id="sec-discussion" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="sec-discussion">Discussion</h3>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="">A reasonable target for your discussion section is <strong>5-7 double-spaced pages</strong>, not including references. The necessary length of this section can be highly variable and you should consult with your advisor about what target length might be right for you.</span></div></div>
+<p>The Discussion section is your closing interaction with your reader. It’s where you and they reflect on what you’ve done. The main questions you should address in the discussion are:</p>
+<ul>
+<li>Concisely, what exactly did we do again?</li>
+<li>In what ways did it work? In what ways did it not work?</li>
+<li>Why does it matter?</li>
+<li>What’s the next logical scientific step suggested by this work (i.e.&nbsp;what should your advisor’s <em>next</em> thesis student work on?)</li>
+</ul>
+</section>
+</section>
+<section id="optional-appendices" class="level2">
+<h2 class="anchored" data-anchor-id="optional-appendices">(Optional): Appendices</h2>
+<p>Appendices are spaces for information that doesn’t fit within the natural flow of the thesis itself. Code implementations; large sets of repeated experiments; supplementary tables; etc. are all suitable for appendices.</p>
+</section>
+<section id="references" class="level2">
+
+
 
 
 </section>
+</section>
 
-<p><br> <br> <span style="color:grey;">© Phil Chodrow, 2023</span></p></main> <!-- /main -->
+<p><br> <br> <span style="color:grey;">© Phil Chodrow, 2023</span></p><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-barocas2023fairness" class="csl-entry" role="listitem">
+Barocas, Solon, Moritz Hardt, and Arvind Narayanan. 2023. <em>Fairness and Machine Learning: Limitations and Opportunities</em>. MIT Press.
+</div>
+<div id="ref-chouldechova2017fair" class="csl-entry" role="listitem">
+Chouldechova, Alexandra. 2017. <span>“Fair Prediction with Disparate Impact: A Study of Bias in Recidivism Prediction Instruments.”</span> <em>Big Data</em> 5 (2): 153–63.
+</div>
+<div id="ref-corbett2017algorithmic" class="csl-entry" role="listitem">
+Corbett-Davies, Sam, Emma Pierson, Avi Feller, Sharad Goel, and Aziz Huq. 2017. <span>“Algorithmic Decision Making and the Cost of Fairness.”</span> In <em>Proceedings of the 23rd Acm SIGKDD International Conference on Knowledge Discovery and Data Mining</em>, 797–806.
+</div>
+<div id="ref-kleinberg2016inherent" class="csl-entry" role="listitem">
+Kleinberg, Jon, Sendhil Mullainathan, and Manish Raghavan. 2016. <span>“Inherent Trade-Offs in the Fair Determination of Risk Scores.”</span> <em>arXiv Preprint arXiv:1609.05807</em>.
+</div>
+<div id="ref-obermeyer2019dissecting" class="csl-entry" role="listitem">
+Obermeyer, Ziad, Brian Powers, Christine Vogeli, and Sendhil Mullainathan. 2019. <span>“Dissecting Racial Bias in an Algorithm Used to Manage the Health of Populations.”</span> <em>Science</em> 366 (6464): 447–53.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

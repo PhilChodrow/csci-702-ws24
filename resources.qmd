@@ -1,7 +1,10 @@
 ## Guidance
 
+- [Write Like a Scientist](https://sites.middlebury.edu/middsciwriting/overview/organization/) by Middlebury's own Prof. Molly Costanza-Robinson, Alison Maxwell '15, Prof. Catharine Wright, and Prof. Mary Ellen Bertollini.
 - [Giving a Talk](https://drive.google.com/file/d/13efH6iA6toPtJ91KBt_QCeAyQBcSN7SA/view) workshop slides by [Dan Larremore](https://larremorelab.github.io/). 
 - [$\LaTeX$](https://drive.google.com/file/d/1X7pp1FXT53Zk-VDWAXggUM7uWjd7VMou/view) workshop slides by [Dan Larremore](https://larremorelab.github.io/). 
+
+
 
 ## Writing in $\LaTeX$
 

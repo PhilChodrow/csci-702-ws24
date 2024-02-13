@@ -7,6 +7,14 @@ listing:
     table-striped: true 
     date-format: ddd MMM D, YYYY   
     sort-ui: false
+    filter-ui: false
+  - id: schedule-spring     
+    contents: schedule-spring.yml
+    type: table
+    fields: [date, Topic, Resources, Due] 
+    table-striped: true 
+    date-format: ddd MMM D, YYYY   
+    sort-ui: false
     filter-ui: false   
 toc: false 
 title: Schedule      
@@ -21,5 +29,6 @@ title: Schedule
    
 ## Spring
 
-*Schedule TBD*   
+:::{#schedule-spring}    
+:::   
     

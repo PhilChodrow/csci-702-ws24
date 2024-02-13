@@ -95,6 +95,34 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-schedule-spring .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-Topic','listing-Resources','listing-Due',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      
+      searchColumns: ["listing-date","listing-Due","listing-Topic","listing-Resources"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-schedule-spring'] = new List('listing-schedule-spring', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
   </script>
 
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
@@ -423,7 +451,241 @@ No matching items
 </section>
 <section id="spring" class="level2">
 <h2 class="anchored" data-anchor-id="spring">Spring</h2>
-<p><em>Schedule TBD</em></p>
+<div id="listing-schedule-spring" class="quarto-listing quarto-listing-container-table">
+<table class="quarto-listing-table table table-striped">
+<thead>
+<tr>
+<th>
+Date
+</th>
+<th>
+Topic
+</th>
+<th>
+Resources
+</th>
+<th>
+Due
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-listing-date-sort="1707714000000">
+<td>
+<span class="listing-date">Mon Feb 12, 2024</span>
+</td>
+<td>
+<span class="listing-Topic">Welcome back! </span>
+</td>
+<td>
+<span class="listing-Resources">&nbsp;</span>
+</td>
+<td>
+<span class="listing-Due">&nbsp;</span>
+</td>
+</tr>
+<tr data-index="1" data-listing-date-sort="1708318800000">
+<td>
+<span class="listing-date">Mon Feb 19, 2024</span>
+</td>
+<td>
+<span class="listing-Topic">Writing with Mathematics </span>
+</td>
+<td>
+<span class="listing-Resources">&nbsp;</span>
+</td>
+<td>
+<span class="listing-Due">&nbsp;</span>
+</td>
+</tr>
+<tr data-index="2" data-listing-date-sort="1708923600000">
+<td>
+<span class="listing-date">Mon Feb 26, 2024</span>
+</td>
+<td>
+<span class="listing-Topic">&nbsp;</span>
+</td>
+<td>
+<span class="listing-Resources">&nbsp;</span>
+</td>
+<td>
+<span class="listing-Due">&nbsp;</span>
+</td>
+</tr>
+<tr data-index="3" data-listing-date-sort="1709528400000">
+<td>
+<span class="listing-date">Mon Mar 4, 2024</span>
+</td>
+<td>
+<span class="listing-Topic">&nbsp;</span>
+</td>
+<td>
+<span class="listing-Resources">&nbsp;</span>
+</td>
+<td>
+<span class="listing-Due">&nbsp;</span>
+</td>
+</tr>
+<tr data-index="4" data-listing-date-sort="1710129600000">
+<td>
+<span class="listing-date">Mon Mar 11, 2024</span>
+</td>
+<td>
+<span class="listing-Topic">&nbsp;</span>
+</td>
+<td>
+<span class="listing-Resources">&nbsp;</span>
+</td>
+<td>
+<span class="listing-Due">Thesis Outline</span>
+</td>
+</tr>
+<tr data-index="5" data-listing-date-sort="1710734400000">
+<td>
+<span class="listing-date">Mon Mar 18, 2024</span>
+</td>
+<td>
+<span class="listing-Topic">Introduction Peer Review</span>
+</td>
+<td>
+<span class="listing-Resources">&nbsp;</span>
+</td>
+<td>
+<span class="listing-Due">Draft Introduction</span>
+</td>
+</tr>
+<tr data-index="6" data-listing-date-sort="1711339200000">
+<td>
+<span class="listing-date">Mon Mar 25, 2024</span>
+</td>
+<td>
+<span class="listing-Topic">Literature Peer Review</span>
+</td>
+<td>
+<span class="listing-Resources">&nbsp;</span>
+</td>
+<td>
+<span class="listing-Due">Draft Literature Review</span>
+</td>
+</tr>
+<tr data-index="7" data-listing-date-sort="1711944000000">
+<td>
+<span class="listing-date">Mon Apr 1, 2024</span>
+</td>
+<td>
+<span class="listing-Topic">&nbsp;</span>
+</td>
+<td>
+<span class="listing-Resources">&nbsp;</span>
+</td>
+<td>
+<span class="listing-Due">&nbsp;</span>
+</td>
+</tr>
+<tr data-index="8" data-listing-date-sort="1712548800000">
+<td>
+<span class="listing-date">Mon Apr 8, 2024</span>
+</td>
+<td>
+<span class="listing-Topic">Methods Peer Review</span>
+</td>
+<td>
+<span class="listing-Resources">&nbsp;</span>
+</td>
+<td>
+<span class="listing-Due">Draft Methods</span>
+</td>
+</tr>
+<tr data-index="9" data-listing-date-sort="1713153600000">
+<td>
+<span class="listing-date">Mon Apr 15, 2024</span>
+</td>
+<td>
+<span class="listing-Topic">Results Peer Review</span>
+</td>
+<td>
+<span class="listing-Resources">&nbsp;</span>
+</td>
+<td>
+<span class="listing-Due">Draft Results</span>
+</td>
+</tr>
+<tr data-index="10" data-listing-date-sort="1713758400000">
+<td>
+<span class="listing-date">Mon Apr 22, 2024</span>
+</td>
+<td>
+<span class="listing-Topic">Discussion Peer Review</span>
+</td>
+<td>
+<span class="listing-Resources">&nbsp;</span>
+</td>
+<td>
+<span class="listing-Due">Draft Discussion</span>
+</td>
+</tr>
+<tr data-index="11" data-listing-date-sort="1714363200000">
+<td>
+<span class="listing-date">Mon Apr 29, 2024</span>
+</td>
+<td>
+<span class="listing-Topic">Mock Poster Presentations</span>
+</td>
+<td>
+<span class="listing-Resources">&nbsp;</span>
+</td>
+<td>
+<span class="listing-Due">Draft Poster</span>
+</td>
+</tr>
+<tr data-index="12" data-listing-date-sort="1714968000000">
+<td>
+<span class="listing-date">Mon May 6, 2024</span>
+</td>
+<td>
+<span class="listing-Topic">Mock Thesis Presentations</span>
+</td>
+<td>
+<span class="listing-Resources">&nbsp;</span>
+</td>
+<td>
+<span class="listing-Due">Draft Slides, Revised Thesis</span>
+</td>
+</tr>
+<tr data-index="13" data-listing-date-sort="1715572800000">
+<td>
+<span class="listing-date">Mon May 13, 2024</span>
+</td>
+<td>
+<span class="listing-Topic">Poster Session, Thesis Presentations <br> (exact day/time TBD)</span>
+</td>
+<td>
+<span class="listing-Resources">&nbsp;</span>
+</td>
+<td>
+<span class="listing-Due">Revised Slides, Revised Poster</span>
+</td>
+</tr>
+<tr data-index="14" data-listing-date-sort="1716264000000">
+<td>
+<span class="listing-date">Tue May 21, 2024</span>
+</td>
+<td>
+<span class="listing-Topic">&nbsp;</span>
+</td>
+<td>
+<span class="listing-Resources">&nbsp;</span>
+</td>
+<td>
+<span class="listing-Due">Thesis Final Draft</span>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
 
 
 

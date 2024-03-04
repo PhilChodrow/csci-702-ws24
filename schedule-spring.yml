@@ -17,7 +17,7 @@
   Topic: 
   Resources: 
 - date: 2024-03-11
-  Due: Thesis Outline
+  Due: <a href="deliverables/thesis.qmd#outline">Thesis Outline</a>
   Topic: Thesis Outline Peer Review
   Resources: 
 - date: 2024-03-18 
@@ -25,38 +25,46 @@
   Topic: <i>Spring Break!</i> 
   Resources: 
 - date: 2024-03-25
-  Due: Draft Introduction
+  Due: <a href="deliverables/thesis.qmd#intro">Draft Introduction</a>
   Topic: Introduction Peer Review
   Resources: 
 - date: 2024-04-01
-  Due: Draft Literature Review
-  Topic: Literature Peer Review
+  Due: <a href="deliverables/thesis.qmd#lit">Draft Literature Review</a>
+  Topic: Literature Peer Review 
   Resources: 
 - date: 2024-04-08
-  Due: Draft Methods
+  Due: <a href="deliverables/thesis.qmd#methods">Draft Methods</a>
   Topic: Methods Peer Review
   Resources: 
 - date: 2024-04-15
-  Due: Draft Results
+  Due: <a href="deliverables/thesis.qmd#results">Draft Results</a>
   Topic: Results Peer Review
   Resources: 
 - date: 2024-04-22
-  Due: Draft Discussion
+  Due: <a href="deliverables/thesis.qmd#discussion">Draft Discussion</a>
   Topic: Discussion Peer Review
   Resources: 
 - date: 2024-04-29
-  Due: Draft Poster
-  Topic: Mock Poster Presentations
-  Resources: 
-- date: 2024-05-06
-  Due: Draft Slides, Revised Thesis
+  Due: Revised Thesis
   Topic: Mock Thesis Presentations
   Resources: 
+- date: 2024-05-06
+  Due: Draft Slides, Draft Poster
+  Topic: Mock Thesis Presentations
+  Resources: 
+- date: 2024-05-08
+  Due: Revised Poster
+  Topic: Poster Session
+  Resources: 
+- date: 2024-05-10
+  Due: Revised Slides
+  Topic: Thesis Presentations I
+  Resources: 
 - date: 2024-05-13
-  Due: Revised Slides, Revised Poster
-  Topic: Poster Session, Thesis Presentations <br> (exact day/time TBD)
+  Due: Revised Slides
+  Topic: Thesis Presentations II
   Resources:
-- date: 2024-05-21
+- date: 2024-05-17
   Due: Thesis Final Draft
   Topic: 
   Resources: 

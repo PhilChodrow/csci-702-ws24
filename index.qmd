@@ -8,7 +8,7 @@ listing:
     date-format: ddd MMM D, YYYY   
     sort-ui: false
     filter-ui: false
-  - id: schedule-spring     
+  - id: schedule-spring           
     contents: schedule-spring.yml
     type: table
     fields: [date, Topic, Resources, Due] 

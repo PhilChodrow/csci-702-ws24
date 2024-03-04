@@ -18,6 +18,8 @@ website:
             - syllabus.qmd
             - text: "Schedule"
               file: index.qmd
+            - text: "Thesis Deliverables"
+              file: deliverables/thesis.qmd 
             - resources.qmd
     favicon: assets/icons/favicon.png
     

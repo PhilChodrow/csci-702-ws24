@@ -1,6 +1,7 @@
 ---
 number-sections: true
 bibliography: ../refs.bib
+number-depth: 2
 ---
 
 # Introduction
